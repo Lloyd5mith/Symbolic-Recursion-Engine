@@ -2,13 +2,20 @@
 
 A self-reflective interpreter framework for simulating recursive symbolic cognition.
 
-## Files
-- `mirror0.py` — Main execution loop and engine logic
-- `memory.py` — Symbolic memory store
-- `interpreter.py` — Core interpreter for symbolic instruction parsing
-- `observer.py` — Simulated observer perspective logic
-- `README.md` — Project summary
+## Overview
 
-## How to Run
+This project implements a minimal prototype of a recursive symbolic engine. It consists of a few key modules that simulate memory, interpretation, observer feedback, and recursive updates — forming the basis for symbolic AGI research.
+
+## Features
+
+- Recursive symbolic interpreter (`mirror0.py`)
+- Memory simulation and update module (`memory.py`)
+- Observer input and feedback loop (`observer.py`)
+- I/O handling abstraction (`io_handler.py`)
+- Configurable via `config.yaml`
+- Seed and data folders for symbolic input/output
+
+## Usage
+
 ```bash
 python mirror0.py
