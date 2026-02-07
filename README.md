@@ -2,20 +2,49 @@
 
 A self-reflective interpreter framework for simulating recursive symbolic cognition.
 
+---
+
 ## Overview
 
-This project implements a minimal prototype of a recursive symbolic engine. It consists of a few key modules that simulate memory, interpretation, observer feedback, and recursive updates — forming the basis for symbolic AGI research.
+This project implements a minimal prototype of a recursive symbolic engine. It consists of a small set of modules that simulate symbolic memory, interpretation, observer feedback, and recursive state updates. The goal is to provide a transparent, non-neural foundation for experimenting with symbolic recursion and abstraction.
+
+The system operates entirely on explicit symbols rather than statistical embeddings and maintains persistent state across executions.
+
+---
 
 ## Features
 
 - Recursive symbolic interpreter (`mirror0.py`)
-- Memory simulation and update module (`memory.py`)
+- Persistent memory and state evolution (`memory.py`)
 - Observer input and feedback loop (`observer.py`)
-- I/O handling abstraction (`io_handler.py`)
-- Configurable via `config.yaml`
-- Seed and data folders for symbolic input/output
+- I/O handling and logging abstraction (`io_handler.py`)
+- Configurable runtime behaviour via `config.yaml`
+- Seed and data files for symbolic input and output
+- Deterministic + stochastic symbolic dynamics
+- No neural networks or machine learning
+
+---
+
+## What This Is
+  
+- Explicit symbol manipulation (no vectors or embeddings)  
+- Persistent symbolic memory  
+- Recursive state updates  
+- Fully interpretable internal representations  
+
+---
+
+## What This Is Not
+
+- Not GPT or LLM-based  
+- Not neural or statistical learning  
+- Not probabilistic text generation    
+
+---
 
 ## Usage
 
+Install dependencies:
+
 ```bash
-python mirror0.py
+pip install -r requirements.txt
