@@ -1,0 +1,6 @@
+symbolic
+recursion
+origin
+mirror
+self
+loop

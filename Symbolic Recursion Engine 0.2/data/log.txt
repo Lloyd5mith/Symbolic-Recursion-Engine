@@ -1,0 +1,1699 @@
+[09:36:51] 🧩 Memory loaded: 0 events
+[09:36:51] 🧠 Cycle 1 — thoughts:4
+[09:36:51] bind([loop], Mirror-1[1]::ctx-empty::E6::T9811)
+[09:36:51] observe(Mirror-1[2]::ctx-7e95d7ba::E4::T9811 <- [1])
+[09:36:51] 🔗 link [1] ↔ [Mirror-12] (+1)
+[09:36:51] trace([Mirror-12] -> Mirror-1[3]::ctx-b4164ac6::E7::T9811)
+[09:36:52] [Mirror-12] :: Mirror-1[4]::ctx-8921b1ba::E9::T9812
+[09:36:52] 🧠 Summary
+[09:36:52]   • events: 5
+[09:36:52]   • top_symbols: [('1', 3), ('Mirror-12', 3), ('loop', 1), ('2', 1), ('3', 1), ('4', 1)]
+[09:36:52] 🔁 Re-looping...
+
+[09:36:53] 🧠 Cycle 2 — thoughts:2
+[09:36:53] trace([mirror] -> Mirror-1[5]::ctx-e7ea0c5f::E6::T9813)
+[09:36:53] 🔗 link [mirror] ↔ [Mirror-15] (+1)
+[09:36:53] observe(Mirror-1[6]::ctx-e5e5b90c::E3::T9813 <- [2])
+[09:36:53] 🧠 Summary
+[09:36:53]   • events: 8
+[09:36:53]   • top_symbols: [('1', 3), ('Mirror-12', 3), ('2', 2), ('mirror', 2), ('loop', 1), ('3', 1), ('4', 1), ('5', 1)]
+[09:36:53] 🔁 Re-looping...
+
+[09:36:54] 🧠 Cycle 3 — thoughts:6
+[09:36:54] observe(Mirror-1[7]::ctx-9fae85e6::E1::T9814 <- [mirror])
+[09:36:55] [symbolic] :: Mirror-1[8]::ctx-456ffd33::E2::T9815
+[09:36:55] [1] :: Mirror-1[9]::ctx-1548fd7c::E4::T9815
+[09:36:55] 🔗 link [1] ↔ [Mirror-19] (+1)
+[09:36:55] [1] :: Mirror-1[10]::ctx-4e856024::E3::T9815
+[09:36:55] observe(Mirror-1[11]::ctx-0adafc9b::E1::T9815 <- [loop])
+[09:36:55] 🔗 link [loop] ↔ [Mirror-111] (+1)
+[09:36:55] observe(Mirror-1[12]::ctx-794cfa06::E7::T9815 <- [symbolic])
+[09:36:55] 🔗 link [symbolic] ↔ [Mirror-112] (+1)
+[09:36:56] 🧠 Summary
+[09:36:56]   • events: 17
+[09:36:56]   • top_symbols: [('1', 6), ('loop', 3), ('Mirror-12', 3), ('mirror', 3), ('symbolic', 3), ('2', 2), ('3', 1), ('4', 1)]
+[09:36:56] 🔁 Re-looping...
+
+[09:36:57] 🧠 Cycle 4 — thoughts:3
+[09:36:57] [recursion] :: Mirror-1[13]::ctx-bcdbcc05::E8::T9817
+[09:36:57] 🔗 link [recursion] ↔ [Mirror-113] (+1)
+[09:36:57] bind([2], Mirror-1[14]::ctx-d8f285bd::E1::T9817)
+[09:36:57] 🔗 link [2] ↔ [Mirror-114] (+1)
+[09:36:57] trace([self] -> Mirror-1[15]::ctx-c7a84771::E2::T9817)
+[09:36:57] 🔗 link [self] ↔ [Mirror-115] (+1)
+[09:36:57] 🧠 Summary
+[09:36:57]   • events: 23
+[09:36:57]   • top_symbols: [('1', 6), ('2', 4), ('loop', 3), ('Mirror-12', 3), ('mirror', 3), ('symbolic', 3), ('recursion', 2), ('self', 2)]
+[09:36:57] 🔁 Re-looping...
+
+[09:36:58] 🧠 Cycle 5 — thoughts:4
+[09:36:58] [14] :: Mirror-1[16]::ctx-35df2d35::E7::T9818
+[09:36:58] 🔗 link [14] ↔ [Mirror-116] (+1)
+[09:36:58] observe(Mirror-1[17]::ctx-1288ed13::E9::T9818 <- [recursion])
+[09:36:58] 🔗 link [recursion] ↔ [Mirror-117] (+1)
+[09:36:59] observe(Mirror-1[18]::ctx-bbc1e957::E9::T9819 <- [16])
+[09:36:59] trace([1] -> Mirror-1[19]::ctx-72acec51::E6::T9819)
+[09:36:59] 🧠 Summary
+[09:36:59]   • events: 29
+[09:36:59]   • top_symbols: [('1', 7), ('2', 4), ('recursion', 4), ('loop', 3), ('Mirror-12', 3), ('mirror', 3), ('symbolic', 3), ('14', 3)]
+[09:36:59] 🔁 Re-looping...
+
+[09:37:00] 🧠 Cycle 6 — thoughts:6
+[09:37:00] observe(Mirror-1[20]::ctx-d98985b1::E6::T9820 <- [Mirror-12])
+[09:37:00] 🔗 link [Mirror-12] ↔ [Mirror-120] (+1)
+[09:37:00] bind([loop], Mirror-1[21]::ctx-5c195565::E1::T9820)
+[09:37:01] observe(Mirror-1[22]::ctx-385522a1::E3::T9821 <- [14])
+[09:37:01] [Mirror-115] :: Mirror-1[23]::ctx-79eaf2ad::E3::T9821
+[09:37:01] 🔗 link [Mirror-115] ↔ [Mirror-123] (+1)
+[09:37:01] [loop] :: Mirror-1[24]::ctx-cadfaa26::E3::T9821
+[09:37:01] 🔗 link [loop] ↔ [Mirror-124] (+1)
+[09:37:01] observe(Mirror-1[25]::ctx-9ddec726::E4::T9821 <- [symbolic])
+[09:37:01] 🔗 link [symbolic] ↔ [Mirror-125] (+1)
+[09:37:01] 🧠 Summary
+[09:37:01]   • events: 39
+[09:37:01]   • top_symbols: [('1', 7), ('loop', 6), ('Mirror-12', 5), ('symbolic', 5), ('2', 4), ('recursion', 4), ('14', 4), ('mirror', 3)]
+[09:37:01] 🔁 Re-looping...
+
+[09:37:02] 🧠 Cycle 7 — thoughts:3
+[09:37:02] bind([4], Mirror-1[26]::ctx-ee63b65e::E6::T9822)
+[09:37:02] 🔗 link [4] ↔ [Mirror-126] (+1)
+[09:37:03] bind([5], Mirror-1[27]::ctx-091d7c6e::E6::T9823)
+[09:37:03] 🔗 link [5] ↔ [Mirror-127] (+1)
+[09:37:03] bind([origin], Mirror-1[28]::ctx-1c3b3210::E6::T9823)
+[09:37:03] 🔗 link [origin] ↔ [Mirror-128] (+1)
+[09:37:03] 🧠 Summary
+[09:37:03]   • events: 45
+[09:37:03]   • top_symbols: [('1', 7), ('loop', 6), ('Mirror-12', 5), ('symbolic', 5), ('2', 4), ('recursion', 4), ('14', 4), ('4', 3)]
+[09:37:03] 🔁 Re-looping...
+
+[09:37:04] 🧠 Cycle 8 — thoughts:4
+[09:37:04] [recursion] :: Mirror-1[29]::ctx-520dbae7::E8::T9824
+[09:37:04] 🔗 link [recursion] ↔ [Mirror-129] (+1)
+[09:37:04] [Mirror-115] :: Mirror-1[30]::ctx-a5bf851c::E4::T9824
+[09:37:04] observe(Mirror-1[31]::ctx-42f31606::E2::T9824 <- [mirror])
+[09:37:04] 🔗 link [mirror] ↔ [Mirror-131] (+1)
+[09:37:05] trace([self] -> Mirror-1[32]::ctx-247b5921::E1::T9825)
+[09:37:05] 🔗 link [self] ↔ [Mirror-132] (+1)
+[09:37:05] 🧠 Summary
+[09:37:05]   • events: 52
+[09:37:05]   • top_symbols: [('1', 7), ('loop', 6), ('recursion', 6), ('Mirror-12', 5), ('mirror', 5), ('symbolic', 5), ('2', 4), ('14', 4)]
+[09:37:05] 🔁 Re-looping...
+
+[09:37:06] 🧠 Cycle 9 — thoughts:4
+[09:37:06] trace([origin] -> Mirror-1[33]::ctx-5d8e19b0::E7::T9826)
+[09:37:06] 🔗 link [origin] ↔ [Mirror-133] (+1)
+[09:37:06] bind([mirror], Mirror-1[34]::ctx-2a6b0376::E5::T9826)
+[09:37:06] 🔗 link [mirror] ↔ [Mirror-134] (+1)
+[09:37:06] trace([Mirror-129] -> Mirror-1[35]::ctx-ad800d26::E3::T9826)
+[09:37:06] 🔗 link [Mirror-129] ↔ [Mirror-135] (+1)
+[09:37:06] [1] :: Mirror-1[36]::ctx-b648251e::E7::T9826
+[09:37:07] 🧠 Summary
+[09:37:07]   • events: 59
+[09:37:07]   • top_symbols: [('1', 8), ('mirror', 7), ('loop', 6), ('recursion', 6), ('Mirror-12', 5), ('symbolic', 5), ('2', 4), ('14', 4)]
+[09:37:07] 🔁 Re-looping...
+
+[09:37:08] 🧠 Cycle 10 — thoughts:4
+[09:37:08] bind([Mirror-133], Mirror-1[37]::ctx-8d10e4a4::E5::T9828)
+[09:37:08] bind([mirror], Mirror-1[38]::ctx-e50b1c75::E6::T9828)
+[09:37:08] trace([symbolic] -> Mirror-1[39]::ctx-bd582a94::E6::T9828)
+[09:37:08] 🔗 link [symbolic] ↔ [Mirror-139] (+1)
+[09:37:08] [self] :: Mirror-1[40]::ctx-ab3d37f3::E7::T9828
+[09:37:09] 🧠 Summary
+[09:37:09]   • events: 64
+[09:37:09]   • top_symbols: [('1', 8), ('mirror', 8), ('symbolic', 7), ('loop', 6), ('recursion', 6), ('Mirror-12', 5), ('self', 5), ('2', 4)]
+[09:37:09] 🔁 Re-looping...
+
+[09:37:10] 🧠 Cycle 11 — thoughts:4
+[09:37:10] trace([mirror] -> Mirror-1[41]::ctx-f01fb301::E7::T9830)
+[09:37:10] bind([4], Mirror-1[42]::ctx-595a49bc::E5::T9830)
+[09:37:10] observe(Mirror-1[43]::ctx-eba734c7::E8::T9830 <- [Mirror-12])
+[09:37:10] 🔗 link [Mirror-12] ↔ [Mirror-143] (+1)
+[09:37:10] [self] :: Mirror-1[44]::ctx-cd3f866f::E3::T9830
+[09:37:10] 🔗 link [self] ↔ [Mirror-144] (+1)
+[09:37:10] 🧠 Summary
+[09:37:10]   • events: 70
+[09:37:10]   • top_symbols: [('mirror', 9), ('1', 8), ('Mirror-12', 7), ('symbolic', 7), ('self', 7), ('loop', 6), ('recursion', 6), ('2', 4)]
+[09:37:10] 🔁 Re-looping...
+
+[09:37:11] 🧠 Cycle 12 — thoughts:4
+[09:37:11] trace([symbolic] -> Mirror-1[45]::ctx-836e5299::E2::T9831)
+[09:37:11] 🔗 link [symbolic] ↔ [Mirror-145] (+1)
+[09:37:12] [symbolic] :: Mirror-1[46]::ctx-fe8826c0::E3::T9832
+[09:37:12] trace([45] -> Mirror-1[47]::ctx-eb4a9649::E8::T9832)
+[09:37:12] trace([recursion] -> Mirror-1[48]::ctx-d5a731ac::E9::T9832)
+[09:37:12] 🧠 Summary
+[09:37:12]   • events: 75
+[09:37:12]   • top_symbols: [('symbolic', 10), ('mirror', 9), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('self', 7), ('loop', 6), ('2', 4)]
+[09:37:12] 🔁 Re-looping...
+
+[09:37:13] 🧠 Cycle 13 — thoughts:5
+[09:37:13] bind([origin], Mirror-1[49]::ctx-28d030b9::E1::T9833)
+[09:37:13] [Mirror-126] :: Mirror-1[50]::ctx-32e24136::E4::T9833
+[09:37:13] 🔗 link [Mirror-126] ↔ [Mirror-150] (+1)
+[09:37:14] trace([38] -> Mirror-1[51]::ctx-b057b27f::E6::T9834)
+[09:37:14] 🔗 link [38] ↔ [Mirror-151] (+1)
+[09:37:14] [symbolic] :: Mirror-1[52]::ctx-71235934::E3::T9834
+[09:37:14] [Mirror-115] :: Mirror-1[53]::ctx-49938d23::E7::T9834
+[09:37:14] 🔗 link [Mirror-115] ↔ [Mirror-153] (+1)
+[09:37:14] 🧠 Summary
+[09:37:14]   • events: 83
+[09:37:14]   • top_symbols: [('symbolic', 11), ('mirror', 9), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('self', 7), ('loop', 6), ('Mirror-115', 6)]
+[09:37:14] 🔁 Re-looping...
+
+[09:37:15] 🧠 Cycle 14 — thoughts:3
+[09:37:15] bind([8], Mirror-1[54]::ctx-829238fa::E6::T9835)
+[09:37:15] 🔗 link [8] ↔ [Mirror-154] (+1)
+[09:37:16] [loop] :: Mirror-1[55]::ctx-959923b0::E9::T9836
+[09:37:16] observe(Mirror-1[56]::ctx-868af7f5::E8::T9836 <- [Mirror-111])
+[09:37:16] 🔗 link [Mirror-111] ↔ [Mirror-156] (+1)
+[09:37:16] 🧠 Summary
+[09:37:16]   • events: 88
+[09:37:16]   • top_symbols: [('symbolic', 11), ('mirror', 9), ('1', 8), ('loop', 7), ('Mirror-12', 7), ('recursion', 7), ('self', 7), ('Mirror-115', 6)]
+[09:37:16] 🔁 Re-looping...
+
+[09:37:17] 🧠 Cycle 15 — thoughts:5
+[09:37:17] trace([Mirror-123] -> Mirror-1[57]::ctx-326a2c53::E5::T9837)
+[09:37:17] 🔗 link [Mirror-123] ↔ [Mirror-157] (+1)
+[09:37:17] bind([43], Mirror-1[58]::ctx-a443574b::E5::T9837)
+[09:37:17] 🔗 link [43] ↔ [Mirror-158] (+1)
+[09:37:17] trace([Mirror-120] -> Mirror-1[59]::ctx-14fa6e11::E8::T9837)
+[09:37:17] 🔗 link [Mirror-120] ↔ [Mirror-159] (+1)
+[09:37:18] bind([Mirror-153], Mirror-1[60]::ctx-6b429571::E7::T9838)
+[09:37:18] observe(Mirror-1[61]::ctx-4a0f6f2e::E8::T9838 <- [Mirror-116])
+[09:37:18] 🔗 link [Mirror-116] ↔ [Mirror-161] (+1)
+[09:37:18] 🧠 Summary
+[09:37:18]   • events: 97
+[09:37:18]   • top_symbols: [('symbolic', 11), ('mirror', 9), ('1', 8), ('loop', 7), ('Mirror-12', 7), ('recursion', 7), ('self', 7), ('Mirror-115', 6)]
+[09:37:18] 🔁 Re-looping...
+
+[09:37:19] 🧠 Cycle 16 — thoughts:4
+[09:37:19] bind([loop], Mirror-1[62]::ctx-72a75d16::E2::T9839)
+[09:37:19] [38] :: Mirror-1[63]::ctx-03ae0999::E6::T9839
+[09:37:19] 🔗 link [38] ↔ [Mirror-163] (+1)
+[09:37:20] observe(Mirror-1[64]::ctx-685a1014::E8::T9840 <- [mirror])
+[09:37:20] bind([17], Mirror-1[65]::ctx-acbfbcd6::E4::T9840)
+[09:37:20] 🔗 link [17] ↔ [Mirror-165] (+1)
+[09:37:20] 🧠 Summary
+[09:37:20]   • events: 103
+[09:37:20]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('loop', 8), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('self', 7), ('Mirror-115', 6)]
+[09:37:20] 🔁 Re-looping...
+
+[09:37:21] 🧠 Cycle 17 — thoughts:5
+[09:37:21] trace([Mirror-132] -> Mirror-1[66]::ctx-68577cfd::E8::T9841)
+[09:37:21] 🔗 link [Mirror-132] ↔ [Mirror-166] (+1)
+[09:37:21] bind([Mirror-115], Mirror-1[67]::ctx-a8b8852e::E1::T9841)
+[09:37:21] trace([Mirror-134] -> Mirror-1[68]::ctx-cf68a72b::E8::T9841)
+[09:37:22] bind([33], Mirror-1[69]::ctx-fb44fdaf::E5::T9842)
+[09:37:22] 🔗 link [33] ↔ [Mirror-169] (+1)
+[09:37:22] observe(Mirror-1[70]::ctx-de94ce73::E3::T9842 <- [self])
+[09:37:22] 🔗 link [self] ↔ [Mirror-170] (+1)
+[09:37:22] 🧠 Summary
+[09:37:22]   • events: 111
+[09:37:22]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('self', 9), ('loop', 8), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('Mirror-115', 7)]
+[09:37:22] 🔁 Re-looping...
+
+[09:37:23] 🧠 Cycle 18 — thoughts:5
+[09:37:23] [self] :: Mirror-1[71]::ctx-57b38116::E3::T9843
+[09:37:23] trace([24] -> Mirror-1[72]::ctx-ac275d42::E7::T9843)
+[09:37:23] 🔗 link [24] ↔ [Mirror-172] (+1)
+[09:37:23] trace([origin] -> Mirror-1[73]::ctx-9fdd4a86::E6::T9843)
+[09:37:23] 🔗 link [origin] ↔ [Mirror-173] (+1)
+[09:37:24] bind([7], Mirror-1[74]::ctx-1f77d8d8::E9::T9844)
+[09:37:24] 🔗 link [7] ↔ [Mirror-174] (+1)
+[09:37:24] observe(Mirror-1[75]::ctx-9460a1de::E1::T9844 <- [17])
+[09:37:24] 🔗 link [17] ↔ [Mirror-175] (+1)
+[09:37:24] 🧠 Summary
+[09:37:24]   • events: 120
+[09:37:24]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('self', 10), ('loop', 8), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('Mirror-115', 7)]
+[09:37:24] 🔁 Re-looping...
+
+[09:37:25] 🧠 Cycle 19 — thoughts:2
+[09:37:25] observe(Mirror-1[76]::ctx-ed85cfaf::E7::T9845 <- [Mirror-175])
+[09:37:25] 🔗 link [Mirror-175] ↔ [Mirror-176] (+1)
+[09:37:25] [67] :: Mirror-1[77]::ctx-12a91f49::E2::T9845
+[09:37:25] 🔗 link [67] ↔ [Mirror-177] (+1)
+[09:37:25] 🧠 Summary
+[09:37:25]   • events: 124
+[09:37:25]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('self', 10), ('loop', 8), ('1', 8), ('Mirror-12', 7), ('recursion', 7), ('Mirror-115', 7)]
+[09:37:25] 🔁 Re-looping...
+
+[09:37:26] 🧠 Cycle 20 — thoughts:2
+[09:37:26] trace([1] -> Mirror-1[78]::ctx-3ce25a9e::E5::T9846)
+[09:37:27] trace([Mirror-12] -> Mirror-1[79]::ctx-fb43de9e::E7::T9847)
+[09:37:27] 🧠 Summary
+[09:37:27]   • events: 126
+[09:37:27]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('self', 10), ('1', 9), ('loop', 8), ('Mirror-12', 8), ('recursion', 7), ('Mirror-115', 7)]
+[09:37:27] 🔁 Re-looping...
+
+[09:37:28] 🧠 Cycle 21 — thoughts:5
+[09:37:28] trace([recursion] -> Mirror-1[80]::ctx-70ac6f7e::E3::T9848)
+[09:37:28] 🔗 link [recursion] ↔ [Mirror-180] (+1)
+[09:37:28] observe(Mirror-1[81]::ctx-712c0cae::E7::T9848 <- [Mirror-128])
+[09:37:28] 🔗 link [Mirror-128] ↔ [Mirror-181] (+1)
+[09:37:28] [55] :: Mirror-1[82]::ctx-2b8ac79a::E7::T9848
+[09:37:28] 🔗 link [55] ↔ [Mirror-182] (+1)
+[09:37:29] trace([origin] -> Mirror-1[83]::ctx-b88809dd::E8::T9849)
+[09:37:29] 🔗 link [origin] ↔ [Mirror-183] (+1)
+[09:37:29] bind([17], Mirror-1[84]::ctx-6872f3b7::E8::T9849)
+[09:37:29] 🔗 link [17] ↔ [Mirror-184] (+1)
+[09:37:29] 🧠 Summary
+[09:37:29]   • events: 136
+[09:37:29]   • top_symbols: [('symbolic', 11), ('mirror', 10), ('self', 10), ('1', 9), ('recursion', 9), ('origin', 9), ('loop', 8), ('Mirror-12', 8)]
+[09:37:29] 🔁 Re-looping...
+
+[09:37:30] 🧠 Cycle 22 — thoughts:4
+[09:37:30] trace([48] -> Mirror-1[85]::ctx-6c8b0b19::E3::T9850)
+[09:37:30] 🔗 link [48] ↔ [Mirror-185] (+1)
+[09:37:30] bind([recursion], Mirror-1[86]::ctx-983c067e::E9::T9850)
+[09:37:30] 🔗 link [recursion] ↔ [Mirror-186] (+1)
+[09:37:30] trace([loop] -> Mirror-1[87]::ctx-a7479774::E5::T9850)
+[09:37:30] 🔗 link [loop] ↔ [Mirror-187] (+1)
+[09:37:31] observe(Mirror-1[88]::ctx-ff78c126::E8::T9851 <- [Mirror-124])
+[09:37:31] 🧠 Summary
+[09:37:31]   • events: 143
+[09:37:31]   • top_symbols: [('symbolic', 11), ('recursion', 11), ('loop', 10), ('mirror', 10), ('self', 10), ('1', 9), ('origin', 9), ('Mirror-12', 8)]
+[09:37:31] 🔁 Re-looping...
+
+[09:37:32] 🧠 Cycle 23 — thoughts:5
+[09:37:32] observe(Mirror-1[89]::ctx-2fd791fc::E6::T9852 <- [1])
+[09:37:32] 🔗 link [1] ↔ [Mirror-189] (+1)
+[09:37:32] bind([Mirror-115], Mirror-1[90]::ctx-29fba8bd::E4::T9852)
+[09:37:32] 🔗 link [Mirror-115] ↔ [Mirror-190] (+1)
+[09:37:32] trace([loop] -> Mirror-1[91]::ctx-552bcad8::E5::T9852)
+[09:37:32] [17] :: Mirror-1[92]::ctx-501d35b9::E1::T9852
+[09:37:33] trace([Mirror-170] -> Mirror-1[93]::ctx-12be06df::E5::T9853)
+[09:37:33] 🔗 link [Mirror-170] ↔ [Mirror-193] (+1)
+[09:37:33] 🧠 Summary
+[09:37:33]   • events: 151
+[09:37:33]   • top_symbols: [('loop', 11), ('1', 11), ('symbolic', 11), ('recursion', 11), ('mirror', 10), ('self', 10), ('Mirror-115', 9), ('origin', 9)]
+[09:37:33] 🔁 Re-looping...
+
+[09:37:34] 🧠 Cycle 24 — thoughts:5
+[09:37:34] observe(Mirror-1[94]::ctx-26f3b1b9::E1::T9854 <- [87])
+[09:37:34] trace([1] -> Mirror-1[95]::ctx-93754040::E5::T9854)
+[09:37:34] trace([recursion] -> Mirror-1[96]::ctx-eb26f434::E7::T9854)
+[09:37:35] observe(Mirror-1[97]::ctx-22f42253::E5::T9855 <- [Mirror-12])
+[09:37:35] [Mirror-115] :: Mirror-1[98]::ctx-5c2277e9::E4::T9855
+[09:37:35] 🧠 Summary
+[09:37:35]   • events: 156
+[09:37:35]   • top_symbols: [('1', 12), ('recursion', 12), ('loop', 11), ('symbolic', 11), ('mirror', 10), ('self', 10), ('Mirror-115', 10), ('Mirror-12', 9)]
+[09:37:35] 🔁 Re-looping...
+
+[09:37:36] 🧠 Cycle 25 — thoughts:2
+[09:37:36] bind([Mirror-120], Mirror-1[99]::ctx-55e1089b::E2::T9856)
+[09:37:36] 🔗 link [Mirror-120] ↔ [Mirror-199] (+1)
+[09:37:36] observe(Mirror-1[100]::ctx-ea0ca464::E7::T9856 <- [5])
+[09:37:36] 🧠 Summary
+[09:37:36]   • events: 159
+[09:37:36]   • top_symbols: [('1', 12), ('recursion', 12), ('loop', 11), ('symbolic', 11), ('mirror', 10), ('self', 10), ('Mirror-115', 10), ('Mirror-12', 9)]
+[09:37:36] 🔁 Re-looping...
+
+[09:37:37] 🧠 Cycle 26 — thoughts:4
+[09:37:37] trace([Mirror-190] -> Mirror-1[101]::ctx-f9802968::E2::T9857)
+[09:37:38] trace([87] -> Mirror-1[102]::ctx-3e5225de::E8::T9858)
+[09:37:38] observe(Mirror-1[103]::ctx-d9a3dd41::E3::T9858 <- [self])
+[09:37:38] 🔗 link [self] ↔ [Mirror-1103] (+1)
+[09:37:38] trace([loop] -> Mirror-1[104]::ctx-ef6faf5a::E2::T9858)
+[09:37:38] 🧠 Summary
+[09:37:38]   • events: 164
+[09:37:38]   • top_symbols: [('loop', 12), ('1', 12), ('recursion', 12), ('self', 12), ('symbolic', 11), ('mirror', 10), ('Mirror-115', 10), ('Mirror-12', 9)]
+[09:37:38] 🔁 Re-looping...
+
+[09:37:39] 
+🛑 Interrupted. Saving graph/rules + exiting cleanly.
+[09:37:44] 🧩 Memory loaded: 164 events
+[09:37:44] 🧠 Cycle 1 — thoughts:5
+[09:37:44] observe(Mirror-1[1]::ctx-7b22e183::E8::T9864 <- [90])
+[09:37:44] observe(Mirror-1[2]::ctx-dd27441e::E4::T9864 <- [self])
+[09:37:44] trace([self] -> Mirror-1[3]::ctx-b3af60a8::E6::T9864)
+[09:37:44] 🔗 link [self] ↔ [Mirror-13] (+1)
+[09:37:44] [mirror] :: Mirror-1[4]::ctx-6df79453::E3::T9864
+[09:37:45] bind([recursion], Mirror-1[5]::ctx-a660be43::E9::T9865)
+[09:37:45] 🔗 link [recursion] ↔ [Mirror-15] (+1)
+[09:37:45] 🧠 Summary
+[09:37:45]   • events: 171
+[09:37:45]   • top_symbols: [('self', 15), ('recursion', 14), ('1', 13), ('loop', 12), ('mirror', 11), ('symbolic', 11), ('Mirror-115', 10), ('Mirror-12', 9)]
+[09:37:45] 🔁 Re-looping...
+
+[09:37:46] 🧠 Cycle 2 — thoughts:6
+[09:37:46] bind([42], Mirror-1[6]::ctx-9b975ec3::E9::T9866)
+[09:37:46] 🔗 link [42] ↔ [Mirror-16] (+1)
+[09:37:46] observe(Mirror-1[7]::ctx-15e85651::E9::T9866 <- [25])
+[09:37:46] 🔗 link [25] ↔ [Mirror-17] (+1)
+[09:37:46] [mirror] :: Mirror-1[8]::ctx-1e67fc4c::E7::T9866
+[09:37:46] trace([Mirror-12] -> Mirror-1[9]::ctx-4c574990::E7::T9866)
+[09:37:46] 🔗 link [Mirror-12] ↔ [Mirror-19] (+1)
+[09:37:47] observe(Mirror-1[10]::ctx-09b049a5::E1::T9867 <- [loop])
+[09:37:47] 🔗 link [loop] ↔ [Mirror-110] (+1)
+[09:37:47] trace([Mirror-123] -> Mirror-1[11]::ctx-30de2182::E5::T9867)
+[09:37:47] 🧠 Summary
+[09:37:47]   • events: 181
+[09:37:47]   • top_symbols: [('self', 15), ('loop', 14), ('recursion', 14), ('1', 13), ('mirror', 12), ('Mirror-12', 11), ('symbolic', 11), ('Mirror-115', 10)]
+[09:37:47] 🔁 Re-looping...
+
+[09:37:48] 🧠 Cycle 3 — thoughts:4
+[09:37:48] observe(Mirror-1[12]::ctx-a6e2ea51::E9::T9868 <- [4])
+[09:37:48] 🔗 link [4] ↔ [Mirror-112] (+1)
+[09:37:48] bind([symbolic], Mirror-1[13]::ctx-2fd5f5ec::E7::T9868)
+[09:37:48] 🔗 link [symbolic] ↔ [Mirror-113] (+1)
+[09:37:49] bind([loop], Mirror-1[14]::ctx-3e000252::E6::T9869)
+[09:37:49] 🔗 link [loop] ↔ [Mirror-114] (+1)
+[09:37:49] observe(Mirror-1[15]::ctx-fff571db::E1::T9869 <- [self])
+[09:37:49] 🧠 Summary
+[09:37:49]   • events: 188
+[09:37:49]   • top_symbols: [('loop', 16), ('self', 16), ('recursion', 14), ('1', 13), ('symbolic', 13), ('mirror', 12), ('Mirror-12', 11), ('Mirror-115', 10)]
+[09:37:49] 🔁 Re-looping...
+
+[09:37:50] 🧠 Cycle 4 — thoughts:6
+[09:37:50] trace([Mirror-12] -> Mirror-1[16]::ctx-26b40bd7::E3::T9870)
+[09:37:50] 🔗 link [Mirror-12] ↔ [Mirror-116] (+1)
+[09:37:50] bind([Mirror-189], Mirror-1[17]::ctx-60e5c187::E1::T9870)
+[09:37:50] 🔗 link [Mirror-189] ↔ [Mirror-117] (+1)
+[09:37:50] bind([1], Mirror-1[18]::ctx-e40860be::E7::T9870)
+[09:37:51] trace([mirror] -> Mirror-1[19]::ctx-9694bfe9::E5::T9871)
+[09:37:51] bind([Mirror-144], Mirror-1[20]::ctx-c4f9d01b::E7::T9871)
+[09:37:51] 🔗 link [Mirror-144] ↔ [Mirror-120] (+1)
+[09:37:51] observe(Mirror-1[21]::ctx-ca519e83::E1::T9871 <- [Mirror-173])
+[09:37:51] 🔗 link [Mirror-173] ↔ [Mirror-121] (+1)
+[09:37:51] 🧠 Summary
+[09:37:51]   • events: 198
+[09:37:51]   • top_symbols: [('loop', 16), ('self', 16), ('1', 14), ('recursion', 14), ('Mirror-12', 13), ('mirror', 13), ('symbolic', 13), ('Mirror-115', 10)]
+[09:37:51] 🔁 Re-looping...
+
+[09:37:52] 🧠 Cycle 5 — thoughts:2
+[09:37:52] [1] :: Mirror-1[22]::ctx-9909a52a::E7::T9872
+[09:37:52] observe(Mirror-1[23]::ctx-971e4f2a::E6::T9872 <- [Mirror-112])
+[09:37:52] 🔗 link [Mirror-112] ↔ [Mirror-123] (+1)
+[09:37:53] 🧠 Summary
+[09:37:53]   • events: 201
+[09:37:53]   • top_symbols: [('loop', 16), ('self', 16), ('1', 15), ('recursion', 14), ('Mirror-12', 13), ('mirror', 13), ('symbolic', 13), ('Mirror-115', 10)]
+[09:37:53] 🔁 Re-looping...
+
+[09:37:54] 🧠 Cycle 6 — thoughts:2
+[09:37:54] trace([33] -> Mirror-1[24]::ctx-8f23c428::E2::T9874)
+[09:37:54] bind([self], Mirror-1[25]::ctx-6e6eb751::E4::T9874)
+[09:37:54] 🧠 Summary
+[09:37:54]   • events: 203
+[09:37:54]   • top_symbols: [('self', 17), ('loop', 16), ('1', 15), ('recursion', 14), ('Mirror-12', 13), ('mirror', 13), ('symbolic', 13), ('Mirror-115', 10)]
+[09:37:54] 🔁 Re-looping...
+
+[09:37:55] 🧠 Cycle 7 — thoughts:6
+[09:37:55] observe(Mirror-1[26]::ctx-38514277::E7::T9875 <- [self])
+[09:37:55] 🔗 link [self] ↔ [Mirror-126] (+1)
+[09:37:55] trace([1] -> Mirror-1[27]::ctx-7e57a3ce::E1::T9875)
+[09:37:55] 🔗 link [1] ↔ [Mirror-127] (+1)
+[09:37:56] bind([Mirror-128], Mirror-1[28]::ctx-f2860e56::E1::T9876)
+[09:37:56] observe(Mirror-1[29]::ctx-d1453c0a::E2::T9876 <- [17])
+[09:37:56] 🔗 link [17] ↔ [Mirror-129] (+1)
+[09:37:56] [origin] :: Mirror-1[30]::ctx-90bfbd7b::E1::T9876
+[09:37:56] trace([17] -> Mirror-1[31]::ctx-59b6fe6c::E6::T9876)
+[09:37:56] 🧠 Summary
+[09:37:56]   • events: 212
+[09:37:56]   • top_symbols: [('self', 19), ('1', 17), ('loop', 16), ('recursion', 14), ('Mirror-12', 13), ('mirror', 13), ('symbolic', 13), ('17', 12)]
+[09:37:56] 🔁 Re-looping...
+
+[09:37:57] 🧠 Cycle 8 — thoughts:2
+[09:37:57] [recursion] :: Mirror-1[32]::ctx-2d93ac3d::E2::T9877
+[09:37:58] observe(Mirror-1[33]::ctx-976354df::E8::T9878 <- [symbolic])
+[09:37:58] 🔗 link [symbolic] ↔ [Mirror-133] (+1)
+[09:37:58] 🧠 Summary
+[09:37:58]   • events: 215
+[09:37:58]   • top_symbols: [('self', 19), ('1', 17), ('loop', 16), ('symbolic', 15), ('recursion', 15), ('Mirror-12', 13), ('mirror', 13), ('17', 12)]
+[09:37:58] 🔁 Re-looping...
+
+[09:37:59] 🧠 Cycle 9 — thoughts:4
+[09:37:59] trace([self] -> Mirror-1[34]::ctx-52e4e5c8::E4::T9879)
+[09:37:59] [symbolic] :: Mirror-1[35]::ctx-5514ef1d::E4::T9879
+[09:37:59] bind([83], Mirror-1[36]::ctx-42a84f8f::E5::T9879)
+[09:37:59] 🔗 link [83] ↔ [Mirror-136] (+1)
+[09:37:59] bind([recursion], Mirror-1[37]::ctx-4c46fb6a::E2::T9879)
+[09:38:00] 🧠 Summary
+[09:38:00]   • events: 220
+[09:38:00]   • top_symbols: [('self', 20), ('1', 17), ('loop', 16), ('symbolic', 16), ('recursion', 16), ('Mirror-12', 13), ('mirror', 13), ('17', 12)]
+[09:38:00] 🔁 Re-looping...
+
+[09:38:01] 🧠 Cycle 10 — thoughts:3
+[09:38:01] trace([mirror] -> Mirror-1[38]::ctx-35b0c33c::E2::T9881)
+[09:38:01] 🔗 link [mirror] ↔ [Mirror-138] (+1)
+[09:38:01] observe(Mirror-1[39]::ctx-f2298280::E7::T9881 <- [40])
+[09:38:01] trace([Mirror-175] -> Mirror-1[40]::ctx-40467e04::E3::T9881)
+[09:38:01] 🔗 link [Mirror-175] ↔ [Mirror-140] (+1)
+[09:38:01] 🧠 Summary
+[09:38:01]   • events: 225
+[09:38:01]   • top_symbols: [('self', 20), ('1', 17), ('loop', 16), ('symbolic', 16), ('recursion', 16), ('mirror', 15), ('Mirror-12', 13), ('17', 12)]
+[09:38:01] 🔁 Re-looping...
+
+[09:38:02] 🧠 Cycle 11 — thoughts:2
+[09:38:02] trace([Mirror-115] -> Mirror-1[41]::ctx-47e259a1::E9::T9882)
+[09:38:03] trace([Mirror-120] -> Mirror-1[42]::ctx-fb27f181::E2::T9883)
+[09:38:03] 🧠 Summary
+[09:38:03]   • events: 227
+[09:38:03]   • top_symbols: [('self', 20), ('1', 17), ('loop', 16), ('symbolic', 16), ('recursion', 16), ('mirror', 15), ('Mirror-12', 13), ('17', 12)]
+[09:38:03] 🔁 Re-looping...
+
+[09:38:04] 🧠 Cycle 12 — thoughts:4
+[09:38:04] observe(Mirror-1[43]::ctx-183a0440::E2::T9884 <- [75])
+[09:38:04] 🔗 link [75] ↔ [Mirror-143] (+1)
+[09:38:04] observe(Mirror-1[44]::ctx-e36ff138::E9::T9884 <- [mirror])
+[09:38:04] [65] :: Mirror-1[45]::ctx-d7b9c4f5::E8::T9884
+[09:38:04] 🔗 link [65] ↔ [Mirror-145] (+1)
+[09:38:04] trace([loop] -> Mirror-1[46]::ctx-040460e7::E9::T9884)
+[09:38:05] 🧠 Summary
+[09:38:05]   • events: 233
+[09:38:05]   • top_symbols: [('self', 20), ('loop', 17), ('1', 17), ('mirror', 16), ('symbolic', 16), ('recursion', 16), ('Mirror-12', 13), ('17', 12)]
+[09:38:05] 🔁 Re-looping...
+
+[09:38:06] 🧠 Cycle 13 — thoughts:5
+[09:38:06] [symbolic] :: Mirror-1[47]::ctx-01b43600::E7::T9886
+[09:38:06] observe(Mirror-1[48]::ctx-3bb547a3::E3::T9886 <- [loop])
+[09:38:06] 🔗 link [loop] ↔ [Mirror-148] (+1)
+[09:38:06] trace([17] -> Mirror-1[49]::ctx-847c07ba::E7::T9886)
+[09:38:06] [Mirror-144] :: Mirror-1[50]::ctx-c1fbb67d::E1::T9886
+[09:38:06] 🔗 link [Mirror-144] ↔ [Mirror-150] (+1)
+[09:38:06] [self] :: Mirror-1[51]::ctx-492b9659::E2::T9886
+[09:38:07] 🧠 Summary
+[09:38:07]   • events: 240
+[09:38:07]   • top_symbols: [('self', 21), ('loop', 19), ('1', 17), ('symbolic', 17), ('mirror', 16), ('recursion', 16), ('Mirror-12', 13), ('17', 13)]
+[09:38:07] 🔁 Re-looping...
+
+[09:38:08] 🧠 Cycle 14 — thoughts:4
+[09:38:08] trace([Mirror-183] -> Mirror-1[52]::ctx-94e29cd0::E9::T9888)
+[09:38:08] 🔗 link [Mirror-183] ↔ [Mirror-152] (+1)
+[09:38:08] observe(Mirror-1[53]::ctx-c7e2626f::E2::T9888 <- [12])
+[09:38:08] observe(Mirror-1[54]::ctx-48e250aa::E2::T9888 <- [Mirror-124])
+[09:38:08] 🔗 link [Mirror-124] ↔ [Mirror-154] (+1)
+[09:38:08] trace([mirror] -> Mirror-1[55]::ctx-c6cbead2::E8::T9888)
+[09:38:08] 🔗 link [mirror] ↔ [Mirror-155] (+1)
+[09:38:08] 🧠 Summary
+[09:38:08]   • events: 247
+[09:38:08]   • top_symbols: [('self', 21), ('loop', 19), ('mirror', 18), ('1', 17), ('symbolic', 17), ('recursion', 16), ('Mirror-12', 13), ('17', 13)]
+[09:38:08] 🔁 Re-looping...
+
+[09:38:10] 🧠 Cycle 15 — thoughts:2
+[09:38:10] [Mirror-139] :: Mirror-1[56]::ctx-ba364a17::E8::T9890
+[09:38:10] 🔗 link [Mirror-139] ↔ [Mirror-156] (+1)
+[09:38:10] bind([1], Mirror-1[57]::ctx-da4da96e::E7::T9890)
+[09:38:10] 🧠 Summary
+[09:38:10]   • events: 250
+[09:38:10]   • top_symbols: [('self', 21), ('loop', 19), ('1', 18), ('mirror', 18), ('symbolic', 17), ('recursion', 16), ('Mirror-12', 13), ('17', 13)]
+[09:38:10] 🔁 Re-looping...
+
+[09:38:11] 🧠 Cycle 16 — thoughts:3
+[09:38:11] observe(Mirror-1[58]::ctx-d91f62c0::E5::T9891 <- [loop])
+[09:38:11] 🔗 link [loop] ↔ [Mirror-158] (+1)
+[09:38:11] bind([recursion], Mirror-1[59]::ctx-411c42b2::E7::T9891)
+[09:38:11] 🔗 link [recursion] ↔ [Mirror-159] (+1)
+[09:38:11] [Mirror-120] :: Mirror-1[60]::ctx-bfc73492::E8::T9891
+[09:38:11] 🔗 link [Mirror-120] ↔ [Mirror-160] (+1)
+[09:38:12] 🧠 Summary
+[09:38:12]   • events: 256
+[09:38:12]   • top_symbols: [('loop', 21), ('self', 21), ('1', 18), ('mirror', 18), ('recursion', 18), ('symbolic', 17), ('Mirror-12', 13), ('17', 13)]
+[09:38:12] 🔁 Re-looping...
+
+[09:38:13] 🧠 Cycle 17 — thoughts:5
+[09:38:13] trace([loop] -> Mirror-1[61]::ctx-160569d5::E4::T9893)
+[09:38:13] 🔗 link [loop] ↔ [Mirror-161] (+1)
+[09:38:13] observe(Mirror-1[62]::ctx-dabe4061::E6::T9893 <- [self])
+[09:38:13] 🔗 link [self] ↔ [Mirror-162] (+1)
+[09:38:13] observe(Mirror-1[63]::ctx-8f5c747a::E6::T9893 <- [Mirror-144])
+[09:38:13] 🔗 link [Mirror-144] ↔ [Mirror-163] (+1)
+[09:38:13] bind([origin], Mirror-1[64]::ctx-b6a7782d::E6::T9893)
+[09:38:13] 🔗 link [origin] ↔ [Mirror-164] (+1)
+[09:38:13] [33] :: Mirror-1[65]::ctx-cda60443::E8::T9893
+[09:38:13] 🔗 link [33] ↔ [Mirror-165] (+1)
+[09:38:14] 🧠 Summary
+[09:38:14]   • events: 266
+[09:38:14]   • top_symbols: [('loop', 23), ('self', 23), ('1', 18), ('mirror', 18), ('recursion', 18), ('symbolic', 17), ('Mirror-12', 13), ('17', 13)]
+[09:38:14] 🔁 Re-looping...
+
+[09:38:15] 🧠 Cycle 18 — thoughts:6
+[09:38:15] observe(Mirror-1[66]::ctx-a85a1d1a::E9::T9895 <- [Mirror-115])
+[09:38:15] observe(Mirror-1[67]::ctx-e341c402::E5::T9895 <- [recursion])
+[09:38:15] 🔗 link [recursion] ↔ [Mirror-167] (+1)
+[09:38:15] [Mirror-134] :: Mirror-1[68]::ctx-0851cb18::E2::T9895
+[09:38:15] 🔗 link [Mirror-134] ↔ [Mirror-168] (+1)
+[09:38:15] observe(Mirror-1[69]::ctx-ac8e0d70::E9::T9895 <- [Mirror-12])
+[09:38:15] observe(Mirror-1[70]::ctx-ea6b6e19::E9::T9895 <- [loop])
+[09:38:15] 🔗 link [loop] ↔ [Mirror-170] (+1)
+[09:38:16] observe(Mirror-1[71]::ctx-667cdcaf::E1::T9896 <- [mirror])
+[09:38:16] 🧠 Summary
+[09:38:16]   • events: 275
+[09:38:16]   • top_symbols: [('loop', 25), ('self', 23), ('recursion', 20), ('mirror', 19), ('1', 18), ('symbolic', 17), ('Mirror-12', 14), ('17', 13)]
+[09:38:16] 🔁 Re-looping...
+
+[09:38:17] 🧠 Cycle 19 — thoughts:2
+[09:38:17] bind([17], Mirror-1[72]::ctx-ff92efd2::E1::T9897)
+[09:38:17] 🔗 link [17] ↔ [Mirror-172] (+1)
+[09:38:17] observe(Mirror-1[73]::ctx-ff1a10b9::E3::T9897 <- [73])
+[09:38:17] 🔗 link [73] ↔ [Mirror-173] (+1)
+[09:38:17] 🧠 Summary
+[09:38:17]   • events: 279
+[09:38:17]   • top_symbols: [('loop', 25), ('self', 23), ('recursion', 20), ('mirror', 19), ('1', 18), ('symbolic', 17), ('17', 15), ('Mirror-12', 14)]
+[09:38:17] 🔁 Re-looping...
+
+[09:38:18] 🧠 Cycle 20 — thoughts:2
+[09:38:18] observe(Mirror-1[74]::ctx-2cbcb2f8::E9::T9898 <- [Mirror-120])
+[09:38:19] observe(Mirror-1[75]::ctx-91774878::E3::T9899 <- [74])
+[09:38:19] 🧠 Summary
+[09:38:19]   • events: 281
+[09:38:19]   • top_symbols: [('loop', 25), ('self', 23), ('recursion', 20), ('mirror', 19), ('1', 18), ('symbolic', 17), ('17', 15), ('Mirror-12', 14)]
+[09:38:19] 🔁 Re-looping...
+
+[09:38:20] 🧠 Cycle 21 — thoughts:2
+[09:38:20] trace([Mirror-127] -> Mirror-1[76]::ctx-43c5c6ca::E1::T9900)
+[09:38:20] 🔗 link [Mirror-127] ↔ [Mirror-176] (+1)
+[09:38:20] trace([loop] -> Mirror-1[77]::ctx-13c72935::E5::T9900)
+[09:38:20] 🔗 link [loop] ↔ [Mirror-177] (+1)
+[09:38:20] 🧠 Summary
+[09:38:20]   • events: 285
+[09:38:20]   • top_symbols: [('loop', 27), ('self', 23), ('recursion', 20), ('mirror', 19), ('1', 18), ('symbolic', 17), ('17', 15), ('Mirror-12', 14)]
+[09:38:20] 🔁 Re-looping...
+
+[09:38:21] 🧠 Cycle 22 — thoughts:6
+[09:38:21] observe(Mirror-1[78]::ctx-304f09be::E9::T9901 <- [Mirror-114])
+[09:38:21] observe(Mirror-1[79]::ctx-47314c9f::E4::T9901 <- [1])
+[09:38:22] trace([loop] -> Mirror-1[80]::ctx-12932106::E5::T9902)
+[09:38:22] trace([59] -> Mirror-1[81]::ctx-dcbd0eb6::E7::T9902)
+[09:38:22] 🔗 link [59] ↔ [Mirror-181] (+1)
+[09:38:22] observe(Mirror-1[82]::ctx-9f7ceb09::E1::T9902 <- [1])
+[09:38:22] 🔗 link [1] ↔ [Mirror-182] (+1)
+[09:38:22] [origin] :: Mirror-1[83]::ctx-e703c729::E6::T9902
+[09:38:22] 🧠 Summary
+[09:38:22]   • events: 293
+[09:38:22]   • top_symbols: [('loop', 28), ('self', 23), ('1', 21), ('recursion', 20), ('mirror', 19), ('symbolic', 17), ('17', 15), ('Mirror-12', 14)]
+[09:38:22] 🔁 Re-looping...
+
+[09:38:23] 🧠 Cycle 23 — thoughts:6
+[09:38:23] trace([Mirror-143] -> Mirror-1[84]::ctx-86562156::E5::T9903)
+[09:38:23] 🔗 link [Mirror-143] ↔ [Mirror-184] (+1)
+[09:38:24] bind([65], Mirror-1[85]::ctx-9f296e47::E5::T9904)
+[09:38:24] trace([origin] -> Mirror-1[86]::ctx-08420ec5::E6::T9904)
+[09:38:24] trace([mirror] -> Mirror-1[87]::ctx-db8d5238::E7::T9904)
+[09:38:24] 🔗 link [mirror] ↔ [Mirror-187] (+1)
+[09:38:24] observe(Mirror-1[88]::ctx-d6577bb4::E8::T9904 <- [Mirror-182])
+[09:38:24] 🔗 link [Mirror-182] ↔ [Mirror-188] (+1)
+[09:38:24] bind([recursion], Mirror-1[89]::ctx-cebe1e39::E9::T9904)
+[09:38:24] 🔗 link [recursion] ↔ [Mirror-189] (+1)
+[09:38:25] 🧠 Summary
+[09:38:25]   • events: 303
+[09:38:25]   • top_symbols: [('loop', 28), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 17), ('17', 15), ('Mirror-12', 14)]
+[09:38:25] 🔁 Re-looping...
+
+[09:38:26] 🧠 Cycle 24 — thoughts:5
+[09:38:26] observe(Mirror-1[90]::ctx-67c1decc::E4::T9906 <- [Mirror-12])
+[09:38:26] 🔗 link [Mirror-12] ↔ [Mirror-190] (+1)
+[09:38:26] trace([Mirror-175] -> Mirror-1[91]::ctx-5bb097a0::E3::T9906)
+[09:38:26] 🔗 link [Mirror-175] ↔ [Mirror-191] (+1)
+[09:38:26] bind([Mirror-133], Mirror-1[92]::ctx-e9f038d9::E7::T9906)
+[09:38:26] 🔗 link [Mirror-133] ↔ [Mirror-192] (+1)
+[09:38:26] bind([Mirror-117], Mirror-1[93]::ctx-30f3052c::E7::T9906)
+[09:38:26] 🔗 link [Mirror-117] ↔ [Mirror-193] (+1)
+[09:38:26] observe(Mirror-1[94]::ctx-f644267d::E2::T9906 <- [Mirror-190])
+[09:38:27] 🧠 Summary
+[09:38:27]   • events: 312
+[09:38:27]   • top_symbols: [('loop', 28), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 17), ('Mirror-12', 16), ('17', 15)]
+[09:38:27] 🔁 Re-looping...
+
+[09:38:28] 🧠 Cycle 25 — thoughts:6
+[09:38:28] trace([loop] -> Mirror-1[95]::ctx-85aed41d::E5::T9908)
+[09:38:28] trace([4] -> Mirror-1[96]::ctx-76bcc59a::E8::T9908)
+[09:38:28] 🔗 link [4] ↔ [Mirror-196] (+1)
+[09:38:28] bind([4], Mirror-1[97]::ctx-f27655f5::E6::T9908)
+[09:38:28] 🔗 link [4] ↔ [Mirror-197] (+1)
+[09:38:28] [17] :: Mirror-1[98]::ctx-0219c4a1::E3::T9908
+[09:38:28] 🔗 link [17] ↔ [Mirror-198] (+1)
+[09:38:29] observe(Mirror-1[99]::ctx-d0bf5304::E9::T9909 <- [Mirror-123])
+[09:38:29] 🔗 link [Mirror-123] ↔ [Mirror-199] (+1)
+[09:38:29] bind([origin], Mirror-1[100]::ctx-4a9e7072::E5::T9909)
+[09:38:29] 🧠 Summary
+[09:38:29]   • events: 322
+[09:38:29]   • top_symbols: [('loop', 29), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 17), ('17', 17), ('Mirror-12', 16)]
+[09:38:29] 🔁 Re-looping...
+
+[09:38:30] 🧠 Cycle 26 — thoughts:2
+[09:38:30] [Mirror-189] :: Mirror-1[101]::ctx-9659170f::E7::T9910
+[09:38:30] observe(Mirror-1[102]::ctx-8875b28c::E3::T9910 <- [symbolic])
+[09:38:30] 🧠 Summary
+[09:38:30]   • events: 324
+[09:38:30]   • top_symbols: [('loop', 29), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 18), ('17', 17), ('Mirror-12', 16)]
+[09:38:30] 🔁 Re-looping...
+
+[09:38:31] 🧠 Cycle 27 — thoughts:6
+[09:38:31] bind([Mirror-177], Mirror-1[103]::ctx-db4f98a8::E4::T9911)
+[09:38:32] bind([Mirror-160], Mirror-1[104]::ctx-152867a7::E8::T9912)
+[09:38:32] trace([Mirror-129] -> Mirror-1[105]::ctx-5c0319b9::E2::T9912)
+[09:38:32] 🔗 link [Mirror-129] ↔ [Mirror-1105] (+1)
+[09:38:32] bind([loop], Mirror-1[106]::ctx-2e419f01::E5::T9912)
+[09:38:32] 🔗 link [loop] ↔ [Mirror-1106] (+1)
+[09:38:32] observe(Mirror-1[107]::ctx-1a940ad5::E1::T9912 <- [4])
+[09:38:32] bind([Mirror-139], Mirror-1[108]::ctx-51a204bd::E9::T9912)
+[09:38:32] 🔗 link [Mirror-139] ↔ [Mirror-1108] (+1)
+[09:38:33] 🧠 Summary
+[09:38:33]   • events: 333
+[09:38:33]   • top_symbols: [('loop', 31), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 18), ('17', 17), ('Mirror-12', 16)]
+[09:38:33] 🔁 Re-looping...
+
+[09:38:34] 🧠 Cycle 28 — thoughts:2
+[09:38:34] trace([loop] -> Mirror-1[109]::ctx-ee171f48::E6::T9914)
+[09:38:34] trace([15] -> Mirror-1[110]::ctx-bcc39c02::E9::T9914)
+[09:38:34] 🔗 link [15] ↔ [Mirror-1110] (+1)
+[09:38:34] 🧠 Summary
+[09:38:34]   • events: 336
+[09:38:34]   • top_symbols: [('loop', 32), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 18), ('17', 17), ('Mirror-12', 16)]
+[09:38:34] 🔁 Re-looping...
+
+[09:38:35] 🧠 Cycle 29 — thoughts:3
+[09:38:35] trace([4] -> Mirror-1[111]::ctx-7c701c4c::E1::T9915)
+[09:38:35] 🔗 link [4] ↔ [Mirror-1111] (+1)
+[09:38:35] [Mirror-120] :: Mirror-1[112]::ctx-920135ed::E2::T9915
+[09:38:35] 🔗 link [Mirror-120] ↔ [Mirror-1112] (+1)
+[09:38:36] bind([Mirror-143], Mirror-1[113]::ctx-b7b57146::E3::T9916)
+[09:38:36] 🧠 Summary
+[09:38:36]   • events: 341
+[09:38:36]   • top_symbols: [('loop', 32), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 18), ('17', 17), ('Mirror-12', 16)]
+[09:38:36] 🔁 Re-looping...
+
+[09:38:37] 🧠 Cycle 30 — thoughts:6
+[09:38:37] trace([Mirror-13] -> Mirror-1[114]::ctx-f3bb9a42::E9::T9917)
+[09:38:37] observe(Mirror-1[115]::ctx-f2c07b3e::E6::T9917 <- [loop])
+[09:38:37] 🔗 link [loop] ↔ [Mirror-1115] (+1)
+[09:38:37] trace([Mirror-15] -> Mirror-1[116]::ctx-6d169b44::E8::T9917)
+[09:38:37] [origin] :: Mirror-1[117]::ctx-89a036aa::E8::T9917
+[09:38:37] 🔗 link [origin] ↔ [Mirror-1117] (+1)
+[09:38:38] trace([Mirror-190] -> Mirror-1[118]::ctx-4874094a::E7::T9918)
+[09:38:38] 🔗 link [Mirror-190] ↔ [Mirror-1118] (+1)
+[09:38:38] observe(Mirror-1[119]::ctx-b1372e42::E5::T9918 <- [Mirror-110])
+[09:38:38] 🧠 Summary
+[09:38:38]   • events: 350
+[09:38:38]   • top_symbols: [('loop', 34), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 18), ('17', 17), ('origin', 17)]
+[09:38:38] 🔁 Re-looping...
+
+[09:38:39] 🧠 Cycle 31 — thoughts:6
+[09:38:39] bind([Mirror-114], Mirror-1[120]::ctx-dadc5722::E9::T9919)
+[09:38:39] 🔗 link [Mirror-114] ↔ [Mirror-1120] (+1)
+[09:38:39] [symbolic] :: Mirror-1[121]::ctx-8f188f83::E5::T9919
+[09:38:39] trace([33] -> Mirror-1[122]::ctx-40c4cd50::E7::T9919)
+[09:38:39] 🔗 link [33] ↔ [Mirror-1122] (+1)
+[09:38:40] trace([Mirror-120] -> Mirror-1[123]::ctx-c97ce6e0::E6::T9920)
+[09:38:40] [Mirror-115] :: Mirror-1[124]::ctx-8a6b5e73::E9::T9920
+[09:38:40] [Mirror-184] :: Mirror-1[125]::ctx-3edb9a28::E6::T9920
+[09:38:40] 🧠 Summary
+[09:38:40]   • events: 358
+[09:38:40]   • top_symbols: [('loop', 34), ('self', 23), ('recursion', 22), ('1', 21), ('mirror', 21), ('symbolic', 19), ('17', 17), ('origin', 17)]
+[09:38:40] 🔁 Re-looping...
+
+[09:38:41] 🧠 Cycle 32 — thoughts:6
+[09:38:41] observe(Mirror-1[126]::ctx-15293db0::E2::T9921 <- [Mirror-1117])
+[09:38:42] [origin] :: Mirror-1[127]::ctx-3d7dd103::E2::T9922
+[09:38:42] trace([Mirror-180] -> Mirror-1[128]::ctx-1abf74ba::E2::T9922)
+[09:38:42] 🔗 link [Mirror-180] ↔ [Mirror-1128] (+1)
+[09:38:42] [self] :: Mirror-1[129]::ctx-9accfa19::E8::T9922
+[09:38:42] 🔗 link [self] ↔ [Mirror-1129] (+1)
+[09:38:42] bind([1], Mirror-1[130]::ctx-985ec785::E2::T9922)
+[09:38:42] 🔗 link [1] ↔ [Mirror-1130] (+1)
+[09:38:42] [Mirror-124] :: Mirror-1[131]::ctx-fdd3cbc1::E8::T9922
+[09:38:43] 🧠 Summary
+[09:38:43]   • events: 367
+[09:38:43]   • top_symbols: [('loop', 34), ('self', 25), ('1', 23), ('recursion', 22), ('mirror', 21), ('symbolic', 19), ('origin', 18), ('17', 17)]
+[09:38:43] 🔁 Re-looping...
+
+[09:38:44] 🧠 Cycle 33 — thoughts:2
+[09:38:44] observe(Mirror-1[132]::ctx-c935e2be::E5::T9924 <- [1])
+[09:38:44] [origin] :: Mirror-1[133]::ctx-a66b0a37::E4::T9924
+[09:38:44] 🔗 link [origin] ↔ [Mirror-1133] (+1)
+[09:38:44] 🧠 Summary
+[09:38:44]   • events: 370
+[09:38:44]   • top_symbols: [('loop', 34), ('self', 25), ('1', 24), ('recursion', 22), ('mirror', 21), ('origin', 20), ('symbolic', 19), ('17', 17)]
+[09:38:44] 🔁 Re-looping...
+
+[09:38:45] 🧠 Cycle 34 — thoughts:4
+[09:38:45] bind([mirror], Mirror-1[134]::ctx-257ad508::E1::T9925)
+[09:38:45] [4] :: Mirror-1[135]::ctx-d99c1b4e::E4::T9925
+[09:38:45] trace([Mirror-120] -> Mirror-1[136]::ctx-b15f73d3::E9::T9925)
+[09:38:46] observe(Mirror-1[137]::ctx-68233a35::E6::T9926 <- [Mirror-115])
+[09:38:46] 🧠 Summary
+[09:38:46]   • events: 374
+[09:38:46]   • top_symbols: [('loop', 34), ('self', 25), ('1', 24), ('mirror', 22), ('recursion', 22), ('origin', 20), ('symbolic', 19), ('17', 17)]
+[09:38:46] 🔁 Re-looping...
+
+[09:38:47] 🧠 Cycle 35 — thoughts:2
+[09:38:47] [loop] :: Mirror-1[138]::ctx-df49ed06::E1::T9927
+[09:38:47] 🔗 link [loop] ↔ [Mirror-1138] (+1)
+[09:38:47] observe(Mirror-1[139]::ctx-a035a624::E2::T9927 <- [symbolic])
+[09:38:47] 🧠 Summary
+[09:38:47]   • events: 377
+[09:38:47]   • top_symbols: [('loop', 36), ('self', 25), ('1', 24), ('mirror', 22), ('recursion', 22), ('symbolic', 20), ('origin', 20), ('17', 17)]
+[09:38:47] 🔁 Re-looping...
+
+[09:38:48] 🧠 Cycle 36 — thoughts:4
+[09:38:48] observe(Mirror-1[140]::ctx-6a347c74::E1::T9928 <- [symbolic])
+[09:38:48] 🔗 link [symbolic] ↔ [Mirror-1140] (+1)
+[09:38:49] [origin] :: Mirror-1[141]::ctx-990709f2::E1::T9929
+[09:38:49] trace([self] -> Mirror-1[142]::ctx-c7b99e13::E6::T9929)
+[09:38:49] 🔗 link [self] ↔ [Mirror-1142] (+1)
+[09:38:49] [Mirror-1129] :: Mirror-1[143]::ctx-1f0e49c3::E2::T9929
+[09:38:49] 🔗 link [Mirror-1129] ↔ [Mirror-1143] (+1)
+[09:38:49] 🧠 Summary
+[09:38:49]   • events: 384
+[09:38:49]   • top_symbols: [('loop', 36), ('self', 27), ('1', 24), ('mirror', 22), ('symbolic', 22), ('recursion', 22), ('origin', 21), ('17', 17)]
+[09:38:49] 🔁 Re-looping...
+
+[09:38:50] 🧠 Cycle 37 — thoughts:5
+[09:38:50] trace([38] -> Mirror-1[144]::ctx-650c9579::E2::T9930)
+[09:38:50] 🔗 link [38] ↔ [Mirror-1144] (+1)
+[09:38:50] bind([Mirror-110], Mirror-1[145]::ctx-ca9a741d::E7::T9930)
+[09:38:51] [Mirror-120] :: Mirror-1[146]::ctx-35a8a7dc::E3::T9931
+[09:38:51] 🔗 link [Mirror-120] ↔ [Mirror-1146] (+1)
+[09:38:51] [1] :: Mirror-1[147]::ctx-7935c7ac::E5::T9931
+[09:38:51] 🔗 link [1] ↔ [Mirror-1147] (+1)
+[09:38:51] observe(Mirror-1[148]::ctx-3d47dc89::E8::T9931 <- [loop])
+[09:38:51] 🔗 link [loop] ↔ [Mirror-1148] (+1)
+[09:38:51] 🧠 Summary
+[09:38:51]   • events: 393
+[09:38:51]   • top_symbols: [('loop', 38), ('self', 27), ('1', 26), ('mirror', 22), ('symbolic', 22), ('recursion', 22), ('origin', 21), ('17', 17)]
+[09:38:51] 🔁 Re-looping...
+
+[09:38:52] 🧠 Cycle 38 — thoughts:6
+[09:38:52] trace([origin] -> Mirror-1[149]::ctx-1ddb16db::E1::T9932)
+[09:38:52] 🔗 link [origin] ↔ [Mirror-1149] (+1)
+[09:38:52] bind([self], Mirror-1[150]::ctx-b4d3d9d9::E6::T9932)
+[09:38:52] 🔗 link [self] ↔ [Mirror-1150] (+1)
+[09:38:53] bind([recursion], Mirror-1[151]::ctx-24c217f9::E5::T9933)
+[09:38:53] observe(Mirror-1[152]::ctx-9f2b282b::E2::T9933 <- [Mirror-129])
+[09:38:53] [67] :: Mirror-1[153]::ctx-b0d73f96::E5::T9933
+[09:38:53] 🔗 link [67] ↔ [Mirror-1153] (+1)
+[09:38:53] [loop] :: Mirror-1[154]::ctx-6990a821::E2::T9933
+[09:38:53] 🔗 link [loop] ↔ [Mirror-1154] (+1)
+[09:38:53] 🧠 Summary
+[09:38:53]   • events: 403
+[09:38:53]   • top_symbols: [('loop', 40), ('self', 29), ('1', 26), ('recursion', 23), ('origin', 23), ('mirror', 22), ('symbolic', 22), ('17', 17)]
+[09:38:53] 🔁 Re-looping...
+
+[09:38:55] 🧠 Cycle 39 — thoughts:5
+[09:38:55] bind([symbolic], Mirror-1[155]::ctx-f49b2b11::E7::T9935)
+[09:38:55] 🔗 link [symbolic] ↔ [Mirror-1155] (+1)
+[09:38:55] trace([loop] -> Mirror-1[156]::ctx-1328f54a::E8::T9935)
+[09:38:55] 🔗 link [loop] ↔ [Mirror-1156] (+1)
+[09:38:55] observe(Mirror-1[157]::ctx-9316ec74::E3::T9935 <- [Mirror-199])
+[09:38:55] 🔗 link [Mirror-199] ↔ [Mirror-1157] (+1)
+[09:38:55] bind([4], Mirror-1[158]::ctx-57f12285::E6::T9935)
+[09:38:55] trace([Mirror-126] -> Mirror-1[159]::ctx-40c04552::E6::T9935)
+[09:38:56] 🧠 Summary
+[09:38:56]   • events: 411
+[09:38:56]   • top_symbols: [('loop', 42), ('self', 29), ('1', 26), ('symbolic', 24), ('recursion', 23), ('origin', 23), ('mirror', 22), ('17', 17)]
+[09:38:56] 🔁 Re-looping...
+
+[09:38:57] 🧠 Cycle 40 — thoughts:3
+[09:38:57] observe(Mirror-1[160]::ctx-b97ef4ba::E2::T9937 <- [Mirror-189])
+[09:38:57] trace([Mirror-126] -> Mirror-1[161]::ctx-f2531d81::E9::T9937)
+[09:38:57] 🔗 link [Mirror-126] ↔ [Mirror-1161] (+1)
+[09:38:57] observe(Mirror-1[162]::ctx-316edda7::E3::T9937 <- [Mirror-1147])
+[09:38:57] 🔗 link [Mirror-1147] ↔ [Mirror-1162] (+1)
+[09:38:57] 🧠 Summary
+[09:38:57]   • events: 416
+[09:38:57]   • top_symbols: [('loop', 42), ('self', 29), ('1', 26), ('symbolic', 24), ('recursion', 23), ('origin', 23), ('mirror', 22), ('17', 17)]
+[09:38:57] 🔁 Re-looping...
+
+[09:38:58] 🧠 Cycle 41 — thoughts:3
+[09:38:58] trace([mirror] -> Mirror-1[163]::ctx-eba32b61::E4::T9938)
+[09:38:58] observe(Mirror-1[164]::ctx-3a380acb::E6::T9938 <- [Mirror-144])
+[09:38:58] 🔗 link [Mirror-144] ↔ [Mirror-1164] (+1)
+[09:38:59] bind([17], Mirror-1[165]::ctx-04640270::E3::T9939)
+[09:38:59] 🧠 Summary
+[09:38:59]   • events: 420
+[09:38:59]   • top_symbols: [('loop', 42), ('self', 29), ('1', 26), ('symbolic', 24), ('mirror', 23), ('recursion', 23), ('origin', 23), ('17', 18)]
+[09:38:59] 🔁 Re-looping...
+
+[09:39:00] 🧠 Cycle 42 — thoughts:6
+[09:39:00] trace([Mirror-1111] -> Mirror-1[166]::ctx-cf369a71::E1::T9940)
+[09:39:00] observe(Mirror-1[167]::ctx-db3b72e0::E6::T9940 <- [loop])
+[09:39:00] observe(Mirror-1[168]::ctx-b93df73a::E5::T9940 <- [recursion])
+[09:39:00] observe(Mirror-1[169]::ctx-01878c7e::E6::T9940 <- [Mirror-12])
+[09:39:01] observe(Mirror-1[170]::ctx-50c2a40a::E5::T9941 <- [self])
+[09:39:01] 🔗 link [self] ↔ [Mirror-1170] (+1)
+[09:39:01] [Mirror-175] :: Mirror-1[171]::ctx-7cf4e346::E4::T9941
+[09:39:01] 🧠 Summary
+[09:39:01]   • events: 427
+[09:39:01]   • top_symbols: [('loop', 43), ('self', 31), ('1', 26), ('symbolic', 24), ('recursion', 24), ('mirror', 23), ('origin', 23), ('17', 18)]
+[09:39:01] 🔁 Re-looping...
+
+[09:39:02] 🧠 Cycle 43 — thoughts:5
+[09:39:02] observe(Mirror-1[172]::ctx-dcd76d2d::E9::T9942 <- [origin])
+[09:39:02] [Mirror-164] :: Mirror-1[173]::ctx-e79c2abf::E4::T9942
+[09:39:02] 🔗 link [Mirror-164] ↔ [Mirror-1173] (+1)
+[09:39:03] [loop] :: Mirror-1[174]::ctx-b758a292::E6::T9943
+[09:39:03] 🔗 link [loop] ↔ [Mirror-1174] (+1)
+[09:39:03] observe(Mirror-1[175]::ctx-6b8d72a2::E2::T9943 <- [17])
+[09:39:03] 🔗 link [17] ↔ [Mirror-1175] (+1)
+[09:39:03] [recursion] :: Mirror-1[176]::ctx-94a18e10::E5::T9943
+[09:39:03] 🔗 link [recursion] ↔ [Mirror-1176] (+1)
+[09:39:03] 🧠 Summary
+[09:39:03]   • events: 436
+[09:39:03]   • top_symbols: [('loop', 45), ('self', 31), ('1', 26), ('recursion', 26), ('symbolic', 24), ('origin', 24), ('mirror', 23), ('17', 20)]
+[09:39:03] 🔁 Re-looping...
+
+[09:39:04] 🧠 Cycle 44 — thoughts:2
+[09:39:04] [Mirror-1117] :: Mirror-1[177]::ctx-448b4882::E5::T9944
+[09:39:04] 🔗 link [Mirror-1117] ↔ [Mirror-1177] (+1)
+[09:39:04] observe(Mirror-1[178]::ctx-7b84f7c3::E1::T9944 <- [1])
+[09:39:05] 🧠 Summary
+[09:39:05]   • events: 439
+[09:39:05]   • top_symbols: [('loop', 45), ('self', 31), ('1', 27), ('recursion', 26), ('symbolic', 24), ('origin', 24), ('mirror', 23), ('17', 20)]
+[09:39:05] 🔁 Re-looping...
+
+[09:39:06] 🧠 Cycle 45 — thoughts:3
+[09:39:06] trace([self] -> Mirror-1[179]::ctx-d5c04b1b::E6::T9946)
+[09:39:06] observe(Mirror-1[180]::ctx-ec978d59::E8::T9946 <- [Mirror-120])
+[09:39:06] bind([mirror], Mirror-1[181]::ctx-a90133df::E5::T9946)
+[09:39:06] 🧠 Summary
+[09:39:06]   • events: 442
+[09:39:06]   • top_symbols: [('loop', 45), ('self', 32), ('1', 27), ('recursion', 26), ('mirror', 24), ('symbolic', 24), ('origin', 24), ('17', 20)]
+[09:39:06] 🔁 Re-looping...
+
+[09:39:07] 🧠 Cycle 46 — thoughts:3
+[09:39:07] [1] :: Mirror-1[182]::ctx-ad8a3e6d::E4::T9947
+[09:39:07] [4] :: Mirror-1[183]::ctx-22ee31ee::E9::T9947
+[09:39:07] 🔗 link [4] ↔ [Mirror-1183] (+1)
+[09:39:08] observe(Mirror-1[184]::ctx-3a977159::E2::T9948 <- [Mirror-115])
+[09:39:08] 🔗 link [Mirror-115] ↔ [Mirror-1184] (+1)
+[09:39:08] 🧠 Summary
+[09:39:08]   • events: 447
+[09:39:08]   • top_symbols: [('loop', 45), ('self', 32), ('1', 28), ('recursion', 26), ('mirror', 24), ('symbolic', 24), ('origin', 24), ('17', 20)]
+[09:39:08] 🔁 Re-looping...
+
+[09:39:09] 🧠 Cycle 47 — thoughts:6
+[09:39:09] observe(Mirror-1[185]::ctx-bb9a95bb::E5::T9949 <- [17])
+[09:39:09] 🔗 link [17] ↔ [Mirror-1185] (+1)
+[09:39:09] observe(Mirror-1[186]::ctx-93b26f5e::E9::T9949 <- [origin])
+[09:39:09] 🔗 link [origin] ↔ [Mirror-1186] (+1)
+[09:39:09] [30] :: Mirror-1[187]::ctx-e7e9ad1f::E5::T9949
+[09:39:09] 🔗 link [30] ↔ [Mirror-1187] (+1)
+[09:39:09] trace([recursion] -> Mirror-1[188]::ctx-5fda8c52::E4::T9949)
+[09:39:10] observe(Mirror-1[189]::ctx-0d090f59::E1::T9950 <- [origin])
+[09:39:10] observe(Mirror-1[190]::ctx-a1968f9f::E2::T9950 <- [Mirror-1185])
+[09:39:10] 🔗 link [Mirror-1185] ↔ [Mirror-1190] (+1)
+[09:39:10] 🧠 Summary
+[09:39:10]   • events: 457
+[09:39:10]   • top_symbols: [('loop', 45), ('self', 32), ('1', 28), ('recursion', 27), ('origin', 27), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:10] 🔁 Re-looping...
+
+[09:39:11] 🧠 Cycle 48 — thoughts:3
+[09:39:11] [recursion] :: Mirror-1[191]::ctx-0676d97b::E7::T9951
+[09:39:11] 🔗 link [recursion] ↔ [Mirror-1191] (+1)
+[09:39:11] [Mirror-1117] :: Mirror-1[192]::ctx-fbb35c79::E8::T9951
+[09:39:12] trace([4] -> Mirror-1[193]::ctx-4145aa58::E9::T9952)
+[09:39:12] 🔗 link [4] ↔ [Mirror-1193] (+1)
+[09:39:12] 🧠 Summary
+[09:39:12]   • events: 462
+[09:39:12]   • top_symbols: [('loop', 45), ('self', 32), ('recursion', 29), ('1', 28), ('origin', 27), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:12] 🔁 Re-looping...
+
+[09:39:13] 🧠 Cycle 49 — thoughts:2
+[09:39:13] [Mirror-177] :: Mirror-1[194]::ctx-3355e6ca::E3::T9953
+[09:39:13] 🔗 link [Mirror-177] ↔ [Mirror-1194] (+1)
+[09:39:13] trace([loop] -> Mirror-1[195]::ctx-6adb3f56::E6::T9953)
+[09:39:13] 🔗 link [loop] ↔ [Mirror-1195] (+1)
+[09:39:13] 🧠 Summary
+[09:39:13]   • events: 466
+[09:39:13]   • top_symbols: [('loop', 47), ('self', 32), ('recursion', 29), ('1', 28), ('origin', 27), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:13] 🔁 Re-looping...
+
+[09:39:14] 🧠 Cycle 50 — thoughts:4
+[09:39:14] [origin] :: Mirror-1[196]::ctx-72c74a7d::E8::T9954
+[09:39:14] 🔗 link [origin] ↔ [Mirror-1196] (+1)
+[09:39:14] observe(Mirror-1[197]::ctx-eb2d1dee::E6::T9954 <- [Mirror-144])
+[09:39:15] observe(Mirror-1[198]::ctx-1d5d83e0::E3::T9955 <- [self])
+[09:39:15] trace([self] -> Mirror-1[199]::ctx-f78a9f45::E7::T9955)
+[09:39:15] 🔗 link [self] ↔ [Mirror-1199] (+1)
+[09:39:15] 🧠 Summary
+[09:39:15]   • events: 472
+[09:39:15]   • top_symbols: [('loop', 47), ('self', 35), ('recursion', 29), ('origin', 29), ('1', 28), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:15] 🔁 Re-looping...
+
+[09:39:16] 🧠 Cycle 51 — thoughts:5
+[09:39:16] [90] :: Mirror-1[200]::ctx-7497d0ad::E6::T9956
+[09:39:16] trace([Mirror-115] -> Mirror-1[201]::ctx-4dee8405::E2::T9956)
+[09:39:16] observe(Mirror-1[202]::ctx-584f7c5f::E4::T9956 <- [recursion])
+[09:39:16] 🔗 link [recursion] ↔ [Mirror-1202] (+1)
+[09:39:17] [Mirror-123] :: Mirror-1[203]::ctx-2f16fe74::E2::T9957
+[09:39:17] 🔗 link [Mirror-123] ↔ [Mirror-1203] (+1)
+[09:39:17] trace([recursion] -> Mirror-1[204]::ctx-f15603ad::E7::T9957)
+[09:39:17] 🧠 Summary
+[09:39:17]   • events: 479
+[09:39:17]   • top_symbols: [('loop', 47), ('self', 35), ('recursion', 32), ('origin', 29), ('1', 28), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:17] 🔁 Re-looping...
+
+[09:39:18] 🧠 Cycle 52 — thoughts:2
+[09:39:18] bind([Mirror-170], Mirror-1[205]::ctx-1afa6f02::E4::T9958)
+[09:39:18] 🔗 link [Mirror-170] ↔ [Mirror-1205] (+1)
+[09:39:18] observe(Mirror-1[206]::ctx-def6dc64::E2::T9958 <- [origin])
+[09:39:19] 🧠 Summary
+[09:39:19]   • events: 482
+[09:39:19]   • top_symbols: [('loop', 47), ('self', 35), ('recursion', 32), ('origin', 30), ('1', 28), ('mirror', 24), ('symbolic', 24), ('17', 22)]
+[09:39:19] 🔁 Re-looping...
+
+[09:39:20] 🧠 Cycle 53 — thoughts:5
+[09:39:20] [4] :: Mirror-1[207]::ctx-1c29bddf::E5::T9960
+[09:39:20] 🔗 link [4] ↔ [Mirror-1207] (+1)
+[09:39:20] [loop] :: Mirror-1[208]::ctx-80967a59::E3::T9960
+[09:39:20] 🔗 link [loop] ↔ [Mirror-1208] (+1)
+[09:39:20] [origin] :: Mirror-1[209]::ctx-63b84f47::E3::T9960
+[09:39:20] observe(Mirror-1[210]::ctx-7c08fc94::E6::T9960 <- [Mirror-112])
+[09:39:20] 🔗 link [Mirror-112] ↔ [Mirror-1210] (+1)
+[09:39:20] [Mirror-124] :: Mirror-1[211]::ctx-e8edd55e::E3::T9960
+[09:39:20] 🔗 link [Mirror-124] ↔ [Mirror-1211] (+1)
+[09:39:21] 🧠 Summary
+[09:39:21]   • events: 491
+[09:39:21]   • top_symbols: [('loop', 49), ('self', 35), ('recursion', 32), ('origin', 31), ('1', 28), ('mirror', 24), ('symbolic', 24), ('4', 22)]
+[09:39:21] 🔁 Re-looping...
+
+[09:39:22] 🧠 Cycle 54 — thoughts:6
+[09:39:22] [38] :: Mirror-1[212]::ctx-0a31ead9::E4::T9962
+[09:39:22] 🔗 link [38] ↔ [Mirror-1212] (+1)
+[09:39:22] bind([self], Mirror-1[213]::ctx-6bff5eec::E1::T9962)
+[09:39:22] [recursion] :: Mirror-1[214]::ctx-cf8311af::E9::T9962
+[09:39:22] observe(Mirror-1[215]::ctx-4546d566::E2::T9962 <- [Mirror-1140])
+[09:39:22] 🔗 link [Mirror-1140] ↔ [Mirror-1215] (+1)
+[09:39:22] trace([Mirror-153] -> Mirror-1[216]::ctx-e5234804::E6::T9962)
+[09:39:22] 🔗 link [Mirror-153] ↔ [Mirror-1216] (+1)
+[09:39:23] bind([symbolic], Mirror-1[217]::ctx-c8479add::E4::T9963)
+[09:39:23] 🔗 link [symbolic] ↔ [Mirror-1217] (+1)
+[09:39:23] 🧠 Summary
+[09:39:23]   • events: 501
+[09:39:23]   • top_symbols: [('loop', 49), ('self', 36), ('recursion', 33), ('origin', 31), ('1', 28), ('symbolic', 26), ('mirror', 24), ('4', 22)]
+[09:39:23] 🔁 Re-looping...
+
+[09:39:24] 🧠 Cycle 55 — thoughts:6
+[09:39:24] trace([loop] -> Mirror-1[218]::ctx-b87ad9b9::E9::T9964)
+[09:39:24] [recursion] :: Mirror-1[219]::ctx-6b7812a0::E9::T9964
+[09:39:24] 🔗 link [recursion] ↔ [Mirror-1219] (+1)
+[09:39:24] observe(Mirror-1[220]::ctx-eadded44::E3::T9964 <- [Mirror-12])
+[09:39:24] 🔗 link [Mirror-12] ↔ [Mirror-1220] (+1)
+[09:39:25] trace([17] -> Mirror-1[221]::ctx-66831f22::E6::T9965)
+[09:39:25] trace([Mirror-138] -> Mirror-1[222]::ctx-468940a0::E3::T9965)
+[09:39:25] [self] :: Mirror-1[223]::ctx-b73e9e88::E9::T9965
+[09:39:25] 🔗 link [self] ↔ [Mirror-1223] (+1)
+[09:39:25] 🧠 Summary
+[09:39:25]   • events: 510
+[09:39:25]   • top_symbols: [('loop', 50), ('self', 38), ('recursion', 35), ('origin', 31), ('1', 28), ('symbolic', 26), ('mirror', 24), ('17', 23)]
+[09:39:25] 🔁 Re-looping...
+
+[09:39:26] 🧠 Cycle 56 — thoughts:4
+[09:39:26] observe(Mirror-1[224]::ctx-ae1c5a63::E7::T9966 <- [Mirror-115])
+[09:39:26] 🔗 link [Mirror-115] ↔ [Mirror-1224] (+1)
+[09:39:26] observe(Mirror-1[225]::ctx-07079f8b::E2::T9966 <- [self])
+[09:39:26] 🔗 link [self] ↔ [Mirror-1225] (+1)
+[09:39:27] [Mirror-125] :: Mirror-1[226]::ctx-1de5a239::E5::T9967
+[09:39:27] 🔗 link [Mirror-125] ↔ [Mirror-1226] (+1)
+[09:39:27] [symbolic] :: Mirror-1[227]::ctx-1d6792ff::E2::T9967
+[09:39:27] 🧠 Summary
+[09:39:27]   • events: 517
+[09:39:27]   • top_symbols: [('loop', 50), ('self', 40), ('recursion', 35), ('origin', 31), ('1', 28), ('symbolic', 27), ('mirror', 24), ('17', 23)]
+[09:39:27] 🔁 Re-looping...
+
+[09:39:28] 🧠 Cycle 57 — thoughts:6
+[09:39:28] observe(Mirror-1[228]::ctx-890ef297::E5::T9968 <- [mirror])
+[09:39:28] 🔗 link [mirror] ↔ [Mirror-1228] (+1)
+[09:39:28] [origin] :: Mirror-1[229]::ctx-5235acc6::E4::T9968
+[09:39:28] 🔗 link [origin] ↔ [Mirror-1229] (+1)
+[09:39:28] [Mirror-1185] :: Mirror-1[230]::ctx-485abcc8::E3::T9968
+[09:39:28] 🔗 link [Mirror-1185] ↔ [Mirror-1230] (+1)
+[09:39:29] observe(Mirror-1[231]::ctx-fd6b63f5::E5::T9969 <- [Mirror-12])
+[09:39:29] bind([Mirror-120], Mirror-1[232]::ctx-ec274d4c::E6::T9969)
+[09:39:29] bind([self], Mirror-1[233]::ctx-67d6695e::E6::T9969)
+[09:39:29] 🧠 Summary
+[09:39:29]   • events: 526
+[09:39:29]   • top_symbols: [('loop', 50), ('self', 41), ('recursion', 35), ('origin', 33), ('1', 28), ('symbolic', 27), ('mirror', 26), ('17', 23)]
+[09:39:29] 🔁 Re-looping...
+
+[09:39:30] 🧠 Cycle 58 — thoughts:4
+[09:39:30] [Mirror-115] :: Mirror-1[234]::ctx-2f8aa842::E1::T9970
+[09:39:30] trace([Mirror-115] -> Mirror-1[235]::ctx-020b01e6::E2::T9970)
+[09:39:30] 🔗 link [Mirror-115] ↔ [Mirror-1235] (+1)
+[09:39:31] observe(Mirror-1[236]::ctx-9e11b391::E8::T9971 <- [recursion])
+[09:39:31] 🔗 link [recursion] ↔ [Mirror-1236] (+1)
+[09:39:31] [loop] :: Mirror-1[237]::ctx-ea071966::E8::T9971
+[09:39:31] 🔗 link [loop] ↔ [Mirror-1237] (+1)
+[09:39:31] 🧠 Summary
+[09:39:31]   • events: 533
+[09:39:31]   • top_symbols: [('loop', 52), ('self', 41), ('recursion', 37), ('origin', 33), ('1', 28), ('symbolic', 27), ('mirror', 26), ('17', 23)]
+[09:39:31] 🔁 Re-looping...
+
+[09:39:32] 🧠 Cycle 59 — thoughts:5
+[09:39:32] [symbolic] :: Mirror-1[238]::ctx-cae0d572::E9::T9972
+[09:39:32] bind([Mirror-155], Mirror-1[239]::ctx-57b38933::E8::T9972)
+[09:39:32] 🔗 link [Mirror-155] ↔ [Mirror-1239] (+1)
+[09:39:33] bind([origin], Mirror-1[240]::ctx-aa5d4df2::E7::T9973)
+[09:39:33] observe(Mirror-1[241]::ctx-a5b82f2d::E9::T9973 <- [recursion])
+[09:39:33] 🔗 link [recursion] ↔ [Mirror-1241] (+1)
+[09:39:33] bind([Mirror-175], Mirror-1[242]::ctx-f6bf24dd::E4::T9973)
+[09:39:33] 🔗 link [Mirror-175] ↔ [Mirror-1242] (+1)
+[09:39:33] 🧠 Summary
+[09:39:33]   • events: 541
+[09:39:33]   • top_symbols: [('loop', 52), ('self', 41), ('recursion', 39), ('origin', 34), ('1', 28), ('symbolic', 28), ('mirror', 26), ('17', 23)]
+[09:39:33] 🔁 Re-looping...
+
+[09:39:34] 🧠 Cycle 60 — thoughts:4
+[09:39:34] observe(Mirror-1[243]::ctx-beef2cc0::E5::T9974 <- [Mirror-148])
+[09:39:34] 🔗 link [Mirror-148] ↔ [Mirror-1243] (+1)
+[09:39:34] bind([Mirror-177], Mirror-1[244]::ctx-35b97b2f::E2::T9974)
+[09:39:34] 🔗 link [Mirror-177] ↔ [Mirror-1244] (+1)
+[09:39:35] bind([origin], Mirror-1[245]::ctx-3391fa54::E3::T9975)
+[09:39:35] bind([Mirror-1130], Mirror-1[246]::ctx-1106c754::E7::T9975)
+[09:39:35] 🔗 link [Mirror-1130] ↔ [Mirror-1246] (+1)
+[09:39:35] 🧠 Summary
+[09:39:35]   • events: 548
+[09:39:35]   • top_symbols: [('loop', 52), ('self', 41), ('recursion', 39), ('origin', 35), ('1', 28), ('symbolic', 28), ('mirror', 26), ('17', 23)]
+[09:39:35] 🔁 Re-looping...
+
+[09:39:36] 🧠 Cycle 61 — thoughts:6
+[09:39:36] [recursion] :: Mirror-1[247]::ctx-5c7aecfb::E2::T9976
+[09:39:36] observe(Mirror-1[248]::ctx-831751eb::E3::T9976 <- [recursion])
+[09:39:36] trace([Mirror-1103] -> Mirror-1[249]::ctx-e959b1a2::E6::T9976)
+[09:39:37] bind([Mirror-180], Mirror-1[250]::ctx-58b476c3::E3::T9977)
+[09:39:37] 🔗 link [Mirror-180] ↔ [Mirror-1250] (+1)
+[09:39:37] bind([Mirror-115], Mirror-1[251]::ctx-0b7c7da5::E1::T9977)
+[09:39:37] observe(Mirror-1[252]::ctx-ffc3273f::E7::T9977 <- [recursion])
+[09:39:37] 🔗 link [recursion] ↔ [Mirror-1252] (+1)
+[09:39:37] 🧠 Summary
+[09:39:37]   • events: 556
+[09:39:37]   • top_symbols: [('loop', 52), ('recursion', 43), ('self', 41), ('origin', 35), ('1', 28), ('symbolic', 28), ('mirror', 26), ('Mirror-115', 23)]
+[09:39:37] 🔁 Re-looping...
+
+[09:39:38] 🧠 Cycle 62 — thoughts:2
+[09:39:38] trace([4] -> Mirror-1[253]::ctx-4b42c29d::E1::T9978)
+[09:39:38] [loop] :: Mirror-1[254]::ctx-caffff65::E3::T9978
+[09:39:38] 🔗 link [loop] ↔ [Mirror-1254] (+1)
+[09:39:39] 🧠 Summary
+[09:39:39]   • events: 559
+[09:39:39]   • top_symbols: [('loop', 54), ('recursion', 43), ('self', 41), ('origin', 35), ('1', 28), ('symbolic', 28), ('mirror', 26), ('4', 23)]
+[09:39:39] 🔁 Re-looping...
+
+[09:39:40] 🧠 Cycle 63 — thoughts:5
+[09:39:40] [self] :: Mirror-1[255]::ctx-7cb31852::E8::T9980
+[09:39:40] trace([1] -> Mirror-1[256]::ctx-54cad5a4::E1::T9980)
+[09:39:40] [Mirror-126] :: Mirror-1[257]::ctx-b2e15799::E5::T9980
+[09:39:40] 🔗 link [Mirror-126] ↔ [Mirror-1257] (+1)
+[09:39:40] observe(Mirror-1[258]::ctx-6cdb1567::E8::T9980 <- [mirror])
+[09:39:40] 🔗 link [mirror] ↔ [Mirror-1258] (+1)
+[09:39:41] observe(Mirror-1[259]::ctx-530fe438::E4::T9981 <- [Mirror-113])
+[09:39:41] 🔗 link [Mirror-113] ↔ [Mirror-1259] (+1)
+[09:39:41] 🧠 Summary
+[09:39:41]   • events: 567
+[09:39:41]   • top_symbols: [('loop', 54), ('recursion', 43), ('self', 42), ('origin', 35), ('1', 29), ('mirror', 28), ('symbolic', 28), ('4', 23)]
+[09:39:41] 🔁 Re-looping...
+
+[09:39:42] 🧠 Cycle 64 — thoughts:2
+[09:39:42] [Mirror-115] :: Mirror-1[260]::ctx-0c5c6917::E5::T9982
+[09:39:42] 🔗 link [Mirror-115] ↔ [Mirror-1260] (+1)
+[09:39:42] trace([Mirror-12] -> Mirror-1[261]::ctx-1cd9f045::E3::T9982)
+[09:39:42] 🧠 Summary
+[09:39:42]   • events: 570
+[09:39:42]   • top_symbols: [('loop', 54), ('recursion', 43), ('self', 42), ('origin', 35), ('1', 29), ('mirror', 28), ('symbolic', 28), ('Mirror-115', 25)]
+[09:39:42] 🔁 Re-looping...
+
+[09:39:43] 🧠 Cycle 65 — thoughts:5
+[09:39:43] observe(Mirror-1[262]::ctx-c92fc5de::E4::T9983 <- [Mirror-177])
+[09:39:43] 🔗 link [Mirror-177] ↔ [Mirror-1262] (+1)
+[09:39:43] bind([recursion], Mirror-1[263]::ctx-8b656629::E6::T9983)
+[09:39:43] 🔗 link [recursion] ↔ [Mirror-1263] (+1)
+[09:39:44] bind([origin], Mirror-1[264]::ctx-cbeb0b5f::E1::T9984)
+[09:39:44] observe(Mirror-1[265]::ctx-29ade0ac::E9::T9984 <- [loop])
+[09:39:44] 🔗 link [loop] ↔ [Mirror-1265] (+1)
+[09:39:44] [Mirror-12] :: Mirror-1[266]::ctx-a5548699::E7::T9984
+[09:39:44] 🧠 Summary
+[09:39:44]   • events: 578
+[09:39:44]   • top_symbols: [('loop', 56), ('recursion', 45), ('self', 42), ('origin', 36), ('1', 29), ('mirror', 28), ('symbolic', 28), ('Mirror-115', 25)]
+[09:39:44] 🔁 Re-looping...
+
+[09:39:45] 🧠 Cycle 66 — thoughts:6
+[09:39:45] trace([Mirror-155] -> Mirror-1[267]::ctx-82453681::E5::T9985)
+[09:39:45] 🔗 link [Mirror-155] ↔ [Mirror-1267] (+1)
+[09:39:45] trace([Mirror-120] -> Mirror-1[268]::ctx-987df034::E1::T9985)
+[09:39:45] 🔗 link [Mirror-120] ↔ [Mirror-1268] (+1)
+[09:39:46] trace([Mirror-1175] -> Mirror-1[269]::ctx-2de67806::E4::T9986)
+[09:39:46] [Mirror-1129] :: Mirror-1[270]::ctx-a40116bf::E7::T9986
+[09:39:46] 🔗 link [Mirror-1129] ↔ [Mirror-1270] (+1)
+[09:39:46] trace([Mirror-115] -> Mirror-1[271]::ctx-8a89bf91::E2::T9986)
+[09:39:46] bind([9], Mirror-1[272]::ctx-b41a6d60::E1::T9986)
+[09:39:46] 🧠 Summary
+[09:39:46]   • events: 587
+[09:39:46]   • top_symbols: [('loop', 56), ('recursion', 45), ('self', 42), ('origin', 36), ('1', 29), ('mirror', 28), ('symbolic', 28), ('Mirror-115', 26)]
+[09:39:46] 🔁 Re-looping...
+
+[09:39:47] 🧠 Cycle 67 — thoughts:5
+[09:39:47] [Mirror-12] :: Mirror-1[273]::ctx-a56b76ae::E6::T9987
+[09:39:48] trace([Mirror-124] -> Mirror-1[274]::ctx-a6cdbda5::E3::T9988)
+[09:39:48] 🔗 link [Mirror-124] ↔ [Mirror-1274] (+1)
+[09:39:48] observe(Mirror-1[275]::ctx-faa698d3::E9::T9988 <- [Mirror-12])
+[09:39:48] observe(Mirror-1[276]::ctx-39dd98ed::E9::T9988 <- [Mirror-1268])
+[09:39:48] [symbolic] :: Mirror-1[277]::ctx-17a51a8d::E5::T9988
+[09:39:49] 🧠 Summary
+[09:39:49]   • events: 593
+[09:39:49]   • top_symbols: [('loop', 56), ('recursion', 45), ('self', 42), ('origin', 36), ('1', 29), ('symbolic', 29), ('mirror', 28), ('Mirror-115', 26)]
+[09:39:49] 🔁 Re-looping...
+
+[09:39:50] 🧠 Cycle 68 — thoughts:6
+[09:39:50] [recursion] :: Mirror-1[278]::ctx-78cf8da9::E7::T9990
+[09:39:50] 🔗 link [recursion] ↔ [Mirror-1278] (+1)
+[09:39:50] bind([Mirror-155], Mirror-1[279]::ctx-9810760e::E7::T9990)
+[09:39:50] 🔗 link [Mirror-155] ↔ [Mirror-1279] (+1)
+[09:39:50] bind([Mirror-19], Mirror-1[280]::ctx-6e47dbc5::E8::T9990)
+[09:39:50] 🔗 link [Mirror-19] ↔ [Mirror-1280] (+1)
+[09:39:50] observe(Mirror-1[281]::ctx-044b9866::E7::T9990 <- [self])
+[09:39:50] 🔗 link [self] ↔ [Mirror-1281] (+1)
+[09:39:50] observe(Mirror-1[282]::ctx-86aeb20c::E7::T9990 <- [Mirror-15])
+[09:39:50] 🔗 link [Mirror-15] ↔ [Mirror-1282] (+1)
+[09:39:51] trace([Mirror-115] -> Mirror-1[283]::ctx-e8eddf51::E7::T9991)
+[09:39:51] 🧠 Summary
+[09:39:51]   • events: 604
+[09:39:51]   • top_symbols: [('loop', 56), ('recursion', 47), ('self', 44), ('origin', 36), ('1', 29), ('symbolic', 29), ('mirror', 28), ('Mirror-115', 27)]
+[09:39:51] 🔁 Re-looping...
+
+[09:39:52] 🧠 Cycle 69 — thoughts:2
+[09:39:52] trace([Mirror-1220] -> Mirror-1[284]::ctx-357b5a58::E8::T9992)
+[09:39:52] 🔗 link [Mirror-1220] ↔ [Mirror-1284] (+1)
+[09:39:52] observe(Mirror-1[285]::ctx-38654d12::E1::T9992 <- [Mirror-1260])
+[09:39:52] 🔗 link [Mirror-1260] ↔ [Mirror-1285] (+1)
+[09:39:52] 🧠 Summary
+[09:39:52]   • events: 608
+[09:39:52]   • top_symbols: [('loop', 56), ('recursion', 47), ('self', 44), ('origin', 36), ('1', 29), ('symbolic', 29), ('mirror', 28), ('Mirror-115', 27)]
+[09:39:52] 🔁 Re-looping...
+
+[09:39:53] 🧠 Cycle 70 — thoughts:5
+[09:39:53] [5] :: Mirror-1[286]::ctx-7fd862cd::E6::T9993
+[09:39:53] [self] :: Mirror-1[287]::ctx-c0c34651::E5::T9993
+[09:39:54] trace([self] -> Mirror-1[288]::ctx-ed6abd2f::E3::T9994)
+[09:39:54] 🔗 link [self] ↔ [Mirror-1288] (+1)
+[09:39:54] observe(Mirror-1[289]::ctx-a4f68df4::E3::T9994 <- [Mirror-1260])
+[09:39:54] 🔗 link [Mirror-1260] ↔ [Mirror-1289] (+1)
+[09:39:54] [Mirror-12] :: Mirror-1[290]::ctx-3da32c91::E2::T9994
+[09:39:54] 🔗 link [Mirror-12] ↔ [Mirror-1290] (+1)
+[09:39:54] 🧠 Summary
+[09:39:54]   • events: 616
+[09:39:54]   • top_symbols: [('loop', 56), ('recursion', 47), ('self', 47), ('origin', 36), ('1', 29), ('symbolic', 29), ('mirror', 28), ('Mirror-115', 27)]
+[09:39:54] 🔁 Re-looping...
+
+[09:39:55] 🧠 Cycle 71 — thoughts:6
+[09:39:55] observe(Mirror-1[291]::ctx-9d7e9459::E5::T9995 <- [symbolic])
+[09:39:55] trace([Mirror-12] -> Mirror-1[292]::ctx-826b261c::E3::T9995)
+[09:39:55] 🔗 link [Mirror-12] ↔ [Mirror-1292] (+1)
+[09:39:56] trace([symbolic] -> Mirror-1[293]::ctx-804a87db::E3::T9996)
+[09:39:56] 🔗 link [symbolic] ↔ [Mirror-1293] (+1)
+[09:39:56] [mirror] :: Mirror-1[294]::ctx-79ccefbc::E3::T9996
+[09:39:56] trace([loop] -> Mirror-1[295]::ctx-8a6e84dd::E7::T9996)
+[09:39:56] [origin] :: Mirror-1[296]::ctx-44b4479a::E2::T9996
+[09:39:57] 🧠 Summary
+[09:39:57]   • events: 624
+[09:39:57]   • top_symbols: [('loop', 57), ('recursion', 47), ('self', 47), ('origin', 37), ('symbolic', 32), ('1', 29), ('mirror', 29), ('Mirror-12', 28)]
+[09:39:57] 🔁 Re-looping...
+
+[09:39:58] 🧠 Cycle 72 — thoughts:6
+[09:39:58] trace([mirror] -> Mirror-1[297]::ctx-dbb92c54::E1::T9998)
+[09:39:58] [Mirror-172] :: Mirror-1[298]::ctx-acc177fc::E6::T9998
+[09:39:58] trace([recursion] -> Mirror-1[299]::ctx-92f23b58::E6::T9998)
+[09:39:58] 🔗 link [recursion] ↔ [Mirror-1299] (+1)
+[09:39:58] bind([Mirror-1175], Mirror-1[300]::ctx-295cf4e9::E2::T9998)
+[09:39:58] bind([symbolic], Mirror-1[301]::ctx-955a83b0::E4::T9998)
+[09:39:59] trace([loop] -> Mirror-1[302]::ctx-585816fd::E7::T9999)
+[09:39:59] 🧠 Summary
+[09:39:59]   • events: 631
+[09:39:59]   • top_symbols: [('loop', 58), ('recursion', 49), ('self', 47), ('origin', 37), ('symbolic', 33), ('mirror', 30), ('1', 29), ('Mirror-12', 28)]
+[09:39:59] 🔁 Re-looping...
+
+[09:40:00] 🧠 Cycle 73 — thoughts:6
+[09:40:00] bind([origin], Mirror-1[303]::ctx-54274434::E4::T0)
+[09:40:00] 🔗 link [origin] ↔ [Mirror-1303] (+1)
+[09:40:00] [Mirror-1224] :: Mirror-1[304]::ctx-f561a113::E1::T0
+[09:40:00] 🔗 link [Mirror-1224] ↔ [Mirror-1304] (+1)
+[09:40:00] trace([loop] -> Mirror-1[305]::ctx-90c5cf66::E4::T0)
+[09:40:00] [symbolic] :: Mirror-1[306]::ctx-966018f5::E3::T0
+[09:40:01] bind([Mirror-115], Mirror-1[307]::ctx-3b964b85::E8::T1)
+[09:40:01] 🔗 link [Mirror-115] ↔ [Mirror-1307] (+1)
+[09:40:01] [Mirror-199] :: Mirror-1[308]::ctx-6074979c::E5::T1
+[09:40:01] 🧠 Summary
+[09:40:01]   • events: 640
+[09:40:01]   • top_symbols: [('loop', 59), ('recursion', 49), ('self', 47), ('origin', 39), ('symbolic', 34), ('mirror', 30), ('1', 29), ('Mirror-115', 29)]
+[09:40:01] 🔁 Re-looping...
+
+[09:40:02] 🧠 Cycle 74 — thoughts:5
+[09:40:02] trace([recursion] -> Mirror-1[309]::ctx-64e30a88::E7::T2)
+[09:40:02] observe(Mirror-1[310]::ctx-11fd42ee::E6::T2 <- [origin])
+[09:40:02] observe(Mirror-1[311]::ctx-bb1801f8::E2::T2 <- [Mirror-182])
+[09:40:03] [Mirror-197] :: Mirror-1[312]::ctx-10739fe7::E2::T3
+[09:40:03] 🔗 link [Mirror-197] ↔ [Mirror-1312] (+1)
+[09:40:03] [loop] :: Mirror-1[313]::ctx-49d42518::E9::T3
+[09:40:03] 🔗 link [loop] ↔ [Mirror-1313] (+1)
+[09:40:03] 🧠 Summary
+[09:40:03]   • events: 647
+[09:40:03]   • top_symbols: [('loop', 61), ('recursion', 50), ('self', 47), ('origin', 40), ('symbolic', 34), ('mirror', 30), ('1', 29), ('Mirror-115', 29)]
+[09:40:03] 🔁 Re-looping...
+
+[09:40:04] 🧠 Cycle 75 — thoughts:3
+[09:40:04] bind([origin], Mirror-1[314]::ctx-bbad276d::E2::T4)
+[09:40:04] [self] :: Mirror-1[315]::ctx-9a95af48::E3::T4
+[09:40:05] observe(Mirror-1[316]::ctx-9be03208::E9::T5 <- [self])
+[09:40:05] 🧠 Summary
+[09:40:05]   • events: 650
+[09:40:05]   • top_symbols: [('loop', 61), ('recursion', 50), ('self', 49), ('origin', 41), ('symbolic', 34), ('mirror', 30), ('1', 29), ('Mirror-115', 29)]
+[09:40:05] 🔁 Re-looping...
+
+[09:40:06] 🧠 Cycle 76 — thoughts:2
+[09:40:06] bind([Mirror-114], Mirror-1[317]::ctx-4cd5958d::E5::T6)
+[09:40:06] trace([symbolic] -> Mirror-1[318]::ctx-caaaeb68::E1::T6)
+[09:40:06] 🔗 link [symbolic] ↔ [Mirror-1318] (+1)
+[09:40:06] 🧠 Summary
+[09:40:06]   • events: 653
+[09:40:06]   • top_symbols: [('loop', 61), ('recursion', 50), ('self', 49), ('origin', 41), ('symbolic', 36), ('mirror', 30), ('1', 29), ('Mirror-115', 29)]
+[09:40:06] 🔁 Re-looping...
+
+[09:40:07] 🧠 Cycle 77 — thoughts:5
+[09:40:07] observe(Mirror-1[319]::ctx-9129308a::E3::T7 <- [loop])
+[09:40:07] 🔗 link [loop] ↔ [Mirror-1319] (+1)
+[09:40:07] trace([mirror] -> Mirror-1[320]::ctx-3be5a381::E2::T7)
+[09:40:08] trace([Mirror-19] -> Mirror-1[321]::ctx-ca14f493::E6::T8)
+[09:40:08] 🔗 link [Mirror-19] ↔ [Mirror-1321] (+1)
+[09:40:08] observe(Mirror-1[322]::ctx-d1a5f3cc::E9::T8 <- [Mirror-1117])
+[09:40:08] bind([17], Mirror-1[323]::ctx-52870dd4::E7::T8)
+[09:40:08] 🧠 Summary
+[09:40:08]   • events: 660
+[09:40:08]   • top_symbols: [('loop', 63), ('recursion', 50), ('self', 49), ('origin', 41), ('symbolic', 36), ('mirror', 31), ('1', 29), ('Mirror-115', 29)]
+[09:40:08] 🔁 Re-looping...
+
+[09:40:09] 🧠 Cycle 78 — thoughts:5
+[09:40:09] bind([Mirror-182], Mirror-1[324]::ctx-6ca34019::E6::T9)
+[09:40:09] 🔗 link [Mirror-182] ↔ [Mirror-1324] (+1)
+[09:40:09] observe(Mirror-1[325]::ctx-3803f140::E1::T9 <- [Mirror-184])
+[09:40:09] 🔗 link [Mirror-184] ↔ [Mirror-1325] (+1)
+[09:40:10] observe(Mirror-1[326]::ctx-6f169eea::E4::T10 <- [Mirror-12])
+[09:40:10] bind([Mirror-164], Mirror-1[327]::ctx-624eda73::E9::T10)
+[09:40:10] 🔗 link [Mirror-164] ↔ [Mirror-1327] (+1)
+[09:40:10] [Mirror-1258] :: Mirror-1[328]::ctx-2c6931eb::E2::T10
+[09:40:10] 🧠 Summary
+[09:40:10]   • events: 668
+[09:40:10]   • top_symbols: [('loop', 63), ('recursion', 50), ('self', 49), ('origin', 41), ('symbolic', 36), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:10] 🔁 Re-looping...
+
+[09:40:11] 🧠 Cycle 79 — thoughts:5
+[09:40:11] trace([Mirror-133] -> Mirror-1[329]::ctx-b75b731e::E8::T11)
+[09:40:11] 🔗 link [Mirror-133] ↔ [Mirror-1329] (+1)
+[09:40:11] [Mirror-1146] :: Mirror-1[330]::ctx-5f49f0fb::E3::T11
+[09:40:11] 🔗 link [Mirror-1146] ↔ [Mirror-1330] (+1)
+[09:40:12] trace([self] -> Mirror-1[331]::ctx-dcea1657::E1::T12)
+[09:40:12] [origin] :: Mirror-1[332]::ctx-03761d0a::E9::T12
+[09:40:12] observe(Mirror-1[333]::ctx-d8e6864c::E1::T12 <- [loop])
+[09:40:12] 🔗 link [loop] ↔ [Mirror-1333] (+1)
+[09:40:12] 🧠 Summary
+[09:40:12]   • events: 676
+[09:40:12]   • top_symbols: [('loop', 65), ('recursion', 50), ('self', 50), ('origin', 42), ('symbolic', 36), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:12] 🔁 Re-looping...
+
+[09:40:13] 🧠 Cycle 80 — thoughts:4
+[09:40:13] trace([symbolic] -> Mirror-1[334]::ctx-b44f4ffd::E7::T13)
+[09:40:14] [origin] :: Mirror-1[335]::ctx-f7ec76d3::E7::T14
+[09:40:14] [Mirror-112] :: Mirror-1[336]::ctx-e70a25dc::E9::T14
+[09:40:14] [Mirror-1224] :: Mirror-1[337]::ctx-bc38237c::E9::T14
+[09:40:14] 🧠 Summary
+[09:40:14]   • events: 680
+[09:40:14]   • top_symbols: [('loop', 65), ('recursion', 50), ('self', 50), ('origin', 43), ('symbolic', 37), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:14] 🔁 Re-looping...
+
+[09:40:15] 🧠 Cycle 81 — thoughts:2
+[09:40:15] observe(Mirror-1[338]::ctx-9be841aa::E4::T15 <- [self])
+[09:40:15] trace([Mirror-110] -> Mirror-1[339]::ctx-59982b84::E4::T15)
+[09:40:15] 🔗 link [Mirror-110] ↔ [Mirror-1339] (+1)
+[09:40:16] 🧠 Summary
+[09:40:16]   • events: 683
+[09:40:16]   • top_symbols: [('loop', 65), ('self', 51), ('recursion', 50), ('origin', 43), ('symbolic', 37), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:16] 🔁 Re-looping...
+
+[09:40:17] 🧠 Cycle 82 — thoughts:5
+[09:40:17] [self] :: Mirror-1[340]::ctx-5d2bae32::E3::T17
+[09:40:17] trace([self] -> Mirror-1[341]::ctx-fa5cf6b0::E7::T17)
+[09:40:17] 🔗 link [self] ↔ [Mirror-1341] (+1)
+[09:40:17] trace([self] -> Mirror-1[342]::ctx-f223a040::E1::T17)
+[09:40:17] 🔗 link [self] ↔ [Mirror-1342] (+1)
+[09:40:17] [83] :: Mirror-1[343]::ctx-0419124d::E4::T17
+[09:40:17] observe(Mirror-1[344]::ctx-1ce11141::E9::T17 <- [loop])
+[09:40:18] 🧠 Summary
+[09:40:18]   • events: 690
+[09:40:18]   • top_symbols: [('loop', 66), ('self', 56), ('recursion', 50), ('origin', 43), ('symbolic', 37), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:18] 🔁 Re-looping...
+
+[09:40:19] 🧠 Cycle 83 — thoughts:2
+[09:40:19] [Mirror-1293] :: Mirror-1[345]::ctx-a1d615ee::E6::T19
+[09:40:19] 🔗 link [Mirror-1293] ↔ [Mirror-1345] (+1)
+[09:40:19] bind([Mirror-129], Mirror-1[346]::ctx-0e7c26a6::E8::T19)
+[09:40:19] 🔗 link [Mirror-129] ↔ [Mirror-1346] (+1)
+[09:40:19] 🧠 Summary
+[09:40:19]   • events: 694
+[09:40:19]   • top_symbols: [('loop', 66), ('self', 56), ('recursion', 50), ('origin', 43), ('symbolic', 37), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:19] 🔁 Re-looping...
+
+[09:40:20] 🧠 Cycle 84 — thoughts:5
+[09:40:20] bind([Mirror-160], Mirror-1[347]::ctx-f1a1361b::E7::T20)
+[09:40:20] trace([Mirror-165] -> Mirror-1[348]::ctx-45002cb7::E3::T20)
+[09:40:21] trace([loop] -> Mirror-1[349]::ctx-50318bfa::E2::T21)
+[09:40:21] bind([Mirror-189], Mirror-1[350]::ctx-9496d6e4::E1::T21)
+[09:40:21] 🔗 link [Mirror-189] ↔ [Mirror-1350] (+1)
+[09:40:21] [Mirror-1140] :: Mirror-1[351]::ctx-f5b08ef2::E2::T21
+[09:40:21] 🧠 Summary
+[09:40:21]   • events: 700
+[09:40:21]   • top_symbols: [('loop', 67), ('self', 56), ('recursion', 50), ('origin', 43), ('symbolic', 37), ('mirror', 31), ('1', 29), ('Mirror-12', 29)]
+[09:40:21] 🔁 Re-looping...
+
+[09:40:22] 🧠 Cycle 85 — thoughts:2
+[09:40:22] trace([origin] -> Mirror-1[352]::ctx-8665f244::E8::T22)
+[09:40:22] bind([Mirror-12], Mirror-1[353]::ctx-7ae95876::E6::T22)
+[09:40:23] 🧠 Summary
+[09:40:23]   • events: 702
+[09:40:23]   • top_symbols: [('loop', 67), ('self', 56), ('recursion', 50), ('origin', 44), ('symbolic', 37), ('mirror', 31), ('Mirror-12', 30), ('1', 29)]
+[09:40:23] 🔁 Re-looping...
+
+[09:40:24] 🧠 Cycle 86 — thoughts:4
+[09:40:24] observe(Mirror-1[354]::ctx-c44c28da::E1::T24 <- [1])
+[09:40:24] [Mirror-128] :: Mirror-1[355]::ctx-4a8bee50::E1::T24
+[09:40:24] [mirror] :: Mirror-1[356]::ctx-d8684973::E9::T24
+[09:40:24] trace([self] -> Mirror-1[357]::ctx-f8ca2f82::E7::T24)
+[09:40:24] 🧠 Summary
+[09:40:24]   • events: 706
+[09:40:24]   • top_symbols: [('loop', 67), ('self', 57), ('recursion', 50), ('origin', 44), ('symbolic', 37), ('mirror', 32), ('1', 30), ('Mirror-12', 30)]
+[09:40:24] 🔁 Re-looping...
+
+[09:40:25] 🧠 Cycle 87 — thoughts:2
+[09:40:25] [Mirror-1183] :: Mirror-1[358]::ctx-f2805633::E6::T25
+[09:40:25] 🔗 link [Mirror-1183] ↔ [Mirror-1358] (+1)
+[09:40:26] trace([loop] -> Mirror-1[359]::ctx-79f64750::E5::T26)
+[09:40:26] 🔗 link [loop] ↔ [Mirror-1359] (+1)
+[09:40:26] 🧠 Summary
+[09:40:26]   • events: 710
+[09:40:26]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 44), ('symbolic', 37), ('mirror', 32), ('1', 30), ('Mirror-12', 30)]
+[09:40:26] 🔁 Re-looping...
+
+[09:40:27] 🧠 Cycle 88 — thoughts:6
+[09:40:27] trace([Mirror-115] -> Mirror-1[360]::ctx-c23ea923::E5::T27)
+[09:40:27] 🔗 link [Mirror-115] ↔ [Mirror-1360] (+1)
+[09:40:27] bind([3], Mirror-1[361]::ctx-2b31bbd5::E4::T27)
+[09:40:27] 🔗 link [3] ↔ [Mirror-1361] (+1)
+[09:40:27] observe(Mirror-1[362]::ctx-a597232b::E8::T27 <- [Mirror-123])
+[09:40:27] 🔗 link [Mirror-123] ↔ [Mirror-1362] (+1)
+[09:40:28] trace([mirror] -> Mirror-1[363]::ctx-f3c02ff7::E5::T28)
+[09:40:28] 🔗 link [mirror] ↔ [Mirror-1363] (+1)
+[09:40:28] observe(Mirror-1[364]::ctx-cba7f2f0::E8::T28 <- [Mirror-1133])
+[09:40:28] 🔗 link [Mirror-1133] ↔ [Mirror-1364] (+1)
+[09:40:28] observe(Mirror-1[365]::ctx-7e1716a4::E6::T28 <- [origin])
+[09:40:28] 🧠 Summary
+[09:40:28]   • events: 721
+[09:40:28]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 45), ('symbolic', 37), ('mirror', 34), ('Mirror-115', 31), ('1', 30)]
+[09:40:28] 🔁 Re-looping...
+
+[09:40:29] 🧠 Cycle 89 — thoughts:2
+[09:40:29] trace([origin] -> Mirror-1[366]::ctx-f9c0b4fc::E3::T29)
+[09:40:29] trace([9] -> Mirror-1[367]::ctx-6051a0dd::E7::T29)
+[09:40:30] 🧠 Summary
+[09:40:30]   • events: 723
+[09:40:30]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 46), ('symbolic', 37), ('mirror', 34), ('Mirror-115', 31), ('1', 30)]
+[09:40:30] 🔁 Re-looping...
+
+[09:40:31] 🧠 Cycle 90 — thoughts:6
+[09:40:31] [1] :: Mirror-1[368]::ctx-be5850f2::E2::T31
+[09:40:31] 🔗 link [1] ↔ [Mirror-1368] (+1)
+[09:40:31] [Mirror-198] :: Mirror-1[369]::ctx-698bd668::E8::T31
+[09:40:31] trace([Mirror-120] -> Mirror-1[370]::ctx-8b859bb2::E6::T31)
+[09:40:31] trace([Mirror-133] -> Mirror-1[371]::ctx-f33b918c::E7::T31)
+[09:40:31] 🔗 link [Mirror-133] ↔ [Mirror-1371] (+1)
+[09:40:32] observe(Mirror-1[372]::ctx-290442ba::E8::T32 <- [symbolic])
+[09:40:32] trace([Mirror-1258] -> Mirror-1[373]::ctx-fcd34eac::E7::T32)
+[09:40:32] 🧠 Summary
+[09:40:32]   • events: 731
+[09:40:32]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 46), ('symbolic', 38), ('mirror', 34), ('1', 32), ('Mirror-115', 31)]
+[09:40:32] 🔁 Re-looping...
+
+[09:40:33] 🧠 Cycle 91 — thoughts:6
+[09:40:33] trace([Mirror-12] -> Mirror-1[374]::ctx-3c876cd7::E3::T33)
+[09:40:33] [Mirror-1185] :: Mirror-1[375]::ctx-ada8c985::E3::T33
+[09:40:33] 🔗 link [Mirror-1185] ↔ [Mirror-1375] (+1)
+[09:40:33] bind([17], Mirror-1[376]::ctx-b79e5ef1::E9::T33)
+[09:40:33] 🔗 link [17] ↔ [Mirror-1376] (+1)
+[09:40:34] bind([Mirror-120], Mirror-1[377]::ctx-d655fabc::E9::T34)
+[09:40:34] bind([mirror], Mirror-1[378]::ctx-abd2f962::E9::T34)
+[09:40:34] 🔗 link [mirror] ↔ [Mirror-1378] (+1)
+[09:40:34] [mirror] :: Mirror-1[379]::ctx-9c8b8e6c::E5::T34
+[09:40:34] 🔗 link [mirror] ↔ [Mirror-1379] (+1)
+[09:40:34] 🧠 Summary
+[09:40:34]   • events: 741
+[09:40:34]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 46), ('mirror', 38), ('symbolic', 38), ('1', 32), ('Mirror-12', 31)]
+[09:40:34] 🔁 Re-looping...
+
+[09:40:35] 🧠 Cycle 92 — thoughts:3
+[09:40:35] trace([Mirror-172] -> Mirror-1[380]::ctx-087be666::E8::T35)
+[09:40:35] 🔗 link [Mirror-172] ↔ [Mirror-1380] (+1)
+[09:40:35] [Mirror-127] :: Mirror-1[381]::ctx-b55842a7::E7::T35
+[09:40:36] bind([Mirror-126], Mirror-1[382]::ctx-52647009::E3::T36)
+[09:40:36] 🧠 Summary
+[09:40:36]   • events: 745
+[09:40:36]   • top_symbols: [('loop', 69), ('self', 57), ('recursion', 50), ('origin', 46), ('mirror', 38), ('symbolic', 38), ('1', 32), ('Mirror-12', 31)]
+[09:40:36] 🔁 Re-looping...
+
+[09:40:37] 🧠 Cycle 93 — thoughts:5
+[09:40:37] trace([symbolic] -> Mirror-1[383]::ctx-18dad776::E2::T37)
+[09:40:37] observe(Mirror-1[384]::ctx-cd25ec37::E9::T37 <- [Mirror-126])
+[09:40:37] 🔗 link [Mirror-126] ↔ [Mirror-1384] (+1)
+[09:40:37] [recursion] :: Mirror-1[385]::ctx-9d73ceca::E4::T37
+[09:40:37] 🔗 link [recursion] ↔ [Mirror-1385] (+1)
+[09:40:37] trace([mirror] -> Mirror-1[386]::ctx-8bdc9451::E8::T37)
+[09:40:37] 🔗 link [mirror] ↔ [Mirror-1386] (+1)
+[09:40:38] observe(Mirror-1[387]::ctx-484bb5f6::E3::T38 <- [loop])
+[09:40:38] 🔗 link [loop] ↔ [Mirror-1387] (+1)
+[09:40:38] 🧠 Summary
+[09:40:38]   • events: 754
+[09:40:38]   • top_symbols: [('loop', 71), ('self', 57), ('recursion', 52), ('origin', 46), ('mirror', 40), ('symbolic', 39), ('1', 32), ('Mirror-12', 31)]
+[09:40:38] 🔁 Re-looping...
+
+[09:40:39] 🧠 Cycle 94 — thoughts:4
+[09:40:39] trace([origin] -> Mirror-1[388]::ctx-3b8ff6f3::E9::T39)
+[09:40:39] 🔗 link [origin] ↔ [Mirror-1388] (+1)
+[09:40:39] bind([symbolic], Mirror-1[389]::ctx-a245b236::E2::T39)
+[09:40:39] 🔗 link [symbolic] ↔ [Mirror-1389] (+1)
+[09:40:39] trace([loop] -> Mirror-1[390]::ctx-0d715d55::E5::T39)
+[09:40:40] [recursion] :: Mirror-1[391]::ctx-81fa85dc::E6::T40
+[09:40:40] 🧠 Summary
+[09:40:40]   • events: 760
+[09:40:40]   • top_symbols: [('loop', 72), ('self', 57), ('recursion', 53), ('origin', 48), ('symbolic', 41), ('mirror', 40), ('1', 32), ('Mirror-12', 31)]
+[09:40:40] 🔁 Re-looping...
+
+[09:40:41] 🧠 Cycle 95 — thoughts:4
+[09:40:41] bind([Mirror-189], Mirror-1[392]::ctx-36152a91::E3::T41)
+[09:40:41] 🔗 link [Mirror-189] ↔ [Mirror-1392] (+1)
+[09:40:41] bind([origin], Mirror-1[393]::ctx-c98794a2::E6::T41)
+[09:40:41] 🔗 link [origin] ↔ [Mirror-1393] (+1)
+[09:40:41] [self] :: Mirror-1[394]::ctx-eec72961::E3::T41
+[09:40:41] 🔗 link [self] ↔ [Mirror-1394] (+1)
+[09:40:41] trace([origin] -> Mirror-1[395]::ctx-3a5e4549::E4::T41)
+[09:40:41] 🔗 link [origin] ↔ [Mirror-1395] (+1)
+[09:40:42] 🧠 Summary
+[09:40:42]   • events: 768
+[09:40:42]   • top_symbols: [('loop', 72), ('self', 59), ('recursion', 53), ('origin', 52), ('symbolic', 41), ('mirror', 40), ('1', 32), ('Mirror-12', 31)]
+[09:40:42] 🔁 Re-looping...
+
+[09:40:43] 🧠 Cycle 96 — thoughts:6
+[09:40:43] [self] :: Mirror-1[396]::ctx-25d0d734::E7::T43
+[09:40:43] 🔗 link [self] ↔ [Mirror-1396] (+1)
+[09:40:43] [symbolic] :: Mirror-1[397]::ctx-24f74fdd::E4::T43
+[09:40:43] 🔗 link [symbolic] ↔ [Mirror-1397] (+1)
+[09:40:43] bind([recursion], Mirror-1[398]::ctx-26b64cf0::E2::T43)
+[09:40:43] 🔗 link [recursion] ↔ [Mirror-1398] (+1)
+[09:40:43] trace([Mirror-1363] -> Mirror-1[399]::ctx-af4871de::E3::T43)
+[09:40:43] [Mirror-1376] :: Mirror-1[400]::ctx-c9f9a8df::E7::T43
+[09:40:43] 🔗 link [Mirror-1376] ↔ [Mirror-1400] (+1)
+[09:40:44] [loop] :: Mirror-1[401]::ctx-07317f45::E5::T44
+[09:40:44] 🧠 Summary
+[09:40:44]   • events: 778
+[09:40:44]   • top_symbols: [('loop', 73), ('self', 61), ('recursion', 55), ('origin', 52), ('symbolic', 43), ('mirror', 40), ('1', 32), ('Mirror-12', 31)]
+[09:40:44] 🔁 Re-looping...
+
+[09:40:45] 🧠 Cycle 97 — thoughts:5
+[09:40:45] trace([self] -> Mirror-1[402]::ctx-0d2ece20::E6::T45)
+[09:40:45] trace([self] -> Mirror-1[403]::ctx-df9642d3::E4::T45)
+[09:40:45] 🔗 link [self] ↔ [Mirror-1403] (+1)
+[09:40:45] bind([origin], Mirror-1[404]::ctx-9cd983c1::E1::T45)
+[09:40:46] trace([Mirror-12] -> Mirror-1[405]::ctx-5e5be683::E4::T46)
+[09:40:46] 🔗 link [Mirror-12] ↔ [Mirror-1405] (+1)
+[09:40:46] observe(Mirror-1[406]::ctx-24f01627::E2::T46 <- [Mirror-1155])
+[09:40:46] 🧠 Summary
+[09:40:46]   • events: 785
+[09:40:46]   • top_symbols: [('loop', 73), ('self', 64), ('recursion', 55), ('origin', 53), ('symbolic', 43), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:46] 🔁 Re-looping...
+
+[09:40:47] 🧠 Cycle 98 — thoughts:4
+[09:40:47] bind([recursion], Mirror-1[407]::ctx-6e6dbf12::E6::T47)
+[09:40:47] 🔗 link [recursion] ↔ [Mirror-1407] (+1)
+[09:40:47] bind([symbolic], Mirror-1[408]::ctx-0bd127b4::E2::T47)
+[09:40:47] 🔗 link [symbolic] ↔ [Mirror-1408] (+1)
+[09:40:47] bind([Mirror-1235], Mirror-1[409]::ctx-5c475695::E1::T47)
+[09:40:48] [symbolic] :: Mirror-1[410]::ctx-8bb4a87f::E8::T48
+[09:40:48] 🧠 Summary
+[09:40:48]   • events: 791
+[09:40:48]   • top_symbols: [('loop', 73), ('self', 64), ('recursion', 57), ('origin', 53), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:48] 🔁 Re-looping...
+
+[09:40:49] 🧠 Cycle 99 — thoughts:2
+[09:40:49] observe(Mirror-1[411]::ctx-a430d839::E7::T49 <- [loop])
+[09:40:49] trace([Mirror-160] -> Mirror-1[412]::ctx-d28a234d::E3::T49)
+[09:40:49] 🧠 Summary
+[09:40:49]   • events: 793
+[09:40:49]   • top_symbols: [('loop', 74), ('self', 64), ('recursion', 57), ('origin', 53), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:49] 🔁 Re-looping...
+
+[09:40:50] 🧠 Cycle 100 — thoughts:6
+[09:40:50] bind([Mirror-134], Mirror-1[413]::ctx-72e43fc1::E5::T50)
+[09:40:50] observe(Mirror-1[414]::ctx-9ed73518::E6::T50 <- [origin])
+[09:40:50] 🔗 link [origin] ↔ [Mirror-1414] (+1)
+[09:40:51] trace([17] -> Mirror-1[415]::ctx-88775569::E9::T51)
+[09:40:51] 🔗 link [17] ↔ [Mirror-1415] (+1)
+[09:40:51] observe(Mirror-1[416]::ctx-5f9ffe79::E9::T51 <- [Mirror-177])
+[09:40:51] trace([loop] -> Mirror-1[417]::ctx-56a10c4c::E4::T51)
+[09:40:51] 🔗 link [loop] ↔ [Mirror-1417] (+1)
+[09:40:51] bind([Mirror-19], Mirror-1[418]::ctx-6ff128bc::E5::T51)
+[09:40:51] 🧠 Summary
+[09:40:51]   • events: 802
+[09:40:51]   • top_symbols: [('loop', 76), ('self', 64), ('recursion', 57), ('origin', 55), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:51] 🔁 Re-looping...
+
+[09:40:52] 🧠 Cycle 101 — thoughts:6
+[09:40:52] [Mirror-115] :: Mirror-1[419]::ctx-5ab5ee3f::E9::T52
+[09:40:53] trace([Mirror-190] -> Mirror-1[420]::ctx-433ca231::E6::T53)
+[09:40:53] [Mirror-1185] :: Mirror-1[421]::ctx-035ce134::E1::T53
+[09:40:53] bind([origin], Mirror-1[422]::ctx-f1a897df::E2::T53)
+[09:40:53] 🔗 link [origin] ↔ [Mirror-1422] (+1)
+[09:40:53] observe(Mirror-1[423]::ctx-17810cf7::E2::T53 <- [Mirror-1112])
+[09:40:53] 🔗 link [Mirror-1112] ↔ [Mirror-1423] (+1)
+[09:40:54] trace([recursion] -> Mirror-1[424]::ctx-6d99e141::E2::T54)
+[09:40:54] 🧠 Summary
+[09:40:54]   • events: 810
+[09:40:54]   • top_symbols: [('loop', 76), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:54] 🔁 Re-looping...
+
+[09:40:55] 🧠 Cycle 102 — thoughts:2
+[09:40:55] trace([Mirror-1235] -> Mirror-1[425]::ctx-5e5984fd::E6::T55)
+[09:40:55] 🔗 link [Mirror-1235] ↔ [Mirror-1425] (+1)
+[09:40:55] [Mirror-160] :: Mirror-1[426]::ctx-ce622e42::E2::T55
+[09:40:55] 🧠 Summary
+[09:40:55]   • events: 813
+[09:40:55]   • top_symbols: [('loop', 76), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:55] 🔁 Re-looping...
+
+[09:40:56] 🧠 Cycle 103 — thoughts:6
+[09:40:56] [17] :: Mirror-1[427]::ctx-8bb9cdfa::E8::T56
+[09:40:56] bind([Mirror-1292], Mirror-1[428]::ctx-418a72b9::E8::T56)
+[09:40:57] trace([loop] -> Mirror-1[429]::ctx-3081887a::E9::T57)
+[09:40:57] 🔗 link [loop] ↔ [Mirror-1429] (+1)
+[09:40:57] [Mirror-1220] :: Mirror-1[430]::ctx-e7796a99::E7::T57
+[09:40:57] 🔗 link [Mirror-1220] ↔ [Mirror-1430] (+1)
+[09:40:57] observe(Mirror-1[431]::ctx-462baf98::E7::T57 <- [Mirror-160])
+[09:40:57] bind([Mirror-196], Mirror-1[432]::ctx-3c57caf0::E9::T57)
+[09:40:57] 🧠 Summary
+[09:40:57]   • events: 821
+[09:40:57]   • top_symbols: [('loop', 78), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 40), ('Mirror-12', 33), ('1', 32)]
+[09:40:57] 🔁 Re-looping...
+
+[09:40:58] 🧠 Cycle 104 — thoughts:3
+[09:40:58] trace([Mirror-183] -> Mirror-1[433]::ctx-22112a07::E4::T58)
+[09:40:58] 🔗 link [Mirror-183] ↔ [Mirror-1433] (+1)
+[09:40:59] bind([mirror], Mirror-1[434]::ctx-c52ca99e::E9::T59)
+[09:40:59] trace([1] -> Mirror-1[435]::ctx-f9638546::E9::T59)
+[09:40:59] 🧠 Summary
+[09:40:59]   • events: 825
+[09:40:59]   • top_symbols: [('loop', 78), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 41), ('1', 33), ('Mirror-12', 33)]
+[09:40:59] 🔁 Re-looping...
+
+[09:41:00] 🧠 Cycle 105 — thoughts:4
+[09:41:00] observe(Mirror-1[436]::ctx-aa34a83d::E4::T60 <- [Mirror-1149])
+[09:41:00] bind([Mirror-128], Mirror-1[437]::ctx-dc21ca14::E7::T60)
+[09:41:00] 🔗 link [Mirror-128] ↔ [Mirror-1437] (+1)
+[09:41:01] bind([mirror], Mirror-1[438]::ctx-27741f49::E7::T61)
+[09:41:01] 🔗 link [mirror] ↔ [Mirror-1438] (+1)
+[09:41:01] [Mirror-1376] :: Mirror-1[439]::ctx-46e2dbb2::E8::T61
+[09:41:01] 🔗 link [Mirror-1376] ↔ [Mirror-1439] (+1)
+[09:41:01] 🧠 Summary
+[09:41:01]   • events: 832
+[09:41:01]   • top_symbols: [('loop', 78), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 43), ('1', 33), ('Mirror-12', 33)]
+[09:41:01] 🔁 Re-looping...
+
+[09:41:02] 🧠 Cycle 106 — thoughts:5
+[09:41:02] trace([Mirror-12] -> Mirror-1[440]::ctx-b02230b3::E5::T62)
+[09:41:02] 🔗 link [Mirror-12] ↔ [Mirror-1440] (+1)
+[09:41:02] observe(Mirror-1[441]::ctx-0fe86e80::E1::T62 <- [Mirror-1293])
+[09:41:02] 🔗 link [Mirror-1293] ↔ [Mirror-1441] (+1)
+[09:41:02] trace([Mirror-170] -> Mirror-1[442]::ctx-73bdc672::E6::T62)
+[09:41:03] [1] :: Mirror-1[443]::ctx-d653314c::E1::T63
+[09:41:03] 🔗 link [1] ↔ [Mirror-1443] (+1)
+[09:41:03] [Mirror-199] :: Mirror-1[444]::ctx-bdd97b91::E6::T63
+[09:41:03] 🧠 Summary
+[09:41:03]   • events: 840
+[09:41:03]   • top_symbols: [('loop', 78), ('self', 64), ('recursion', 58), ('origin', 57), ('symbolic', 46), ('mirror', 43), ('1', 35), ('Mirror-12', 35)]
+[09:41:03] 🔁 Re-looping...
+
+[09:41:04] 🧠 Cycle 107 — thoughts:5
+[09:41:04] bind([symbolic], Mirror-1[445]::ctx-9918c5b3::E5::T64)
+[09:41:04] observe(Mirror-1[446]::ctx-55756f7f::E1::T64 <- [mirror])
+[09:41:04] bind([mirror], Mirror-1[447]::ctx-1afa5119::E3::T64)
+[09:41:04] 🔗 link [mirror] ↔ [Mirror-1447] (+1)
+[09:41:05] bind([1], Mirror-1[448]::ctx-979a4737::E6::T65)
+[09:41:05] bind([self], Mirror-1[449]::ctx-cb8d4876::E2::T65)
+[09:41:05] 🔗 link [self] ↔ [Mirror-1449] (+1)
+[09:41:05] 🧠 Summary
+[09:41:05]   • events: 847
+[09:41:05]   • top_symbols: [('loop', 78), ('self', 66), ('recursion', 58), ('origin', 57), ('symbolic', 47), ('mirror', 46), ('1', 36), ('Mirror-12', 35)]
+[09:41:05] 🔁 Re-looping...
+
+[09:41:06] 🧠 Cycle 108 — thoughts:2
+[09:41:06] observe(Mirror-1[450]::ctx-95dcde39::E9::T66 <- [Mirror-189])
+[09:41:06] observe(Mirror-1[451]::ctx-d2ac5a5b::E8::T66 <- [Mirror-1185])
+[09:41:06] 🔗 link [Mirror-1185] ↔ [Mirror-1451] (+1)
+[09:41:07] 🧠 Summary
+[09:41:07]   • events: 850
+[09:41:07]   • top_symbols: [('loop', 78), ('self', 66), ('recursion', 58), ('origin', 57), ('symbolic', 47), ('mirror', 46), ('1', 36), ('Mirror-12', 35)]
+[09:41:07] 🔁 Re-looping...
+
+[09:41:08] 🧠 Cycle 109 — thoughts:3
+[09:41:08] observe(Mirror-1[452]::ctx-149dbf43::E7::T68 <- [origin])
+[09:41:08] 🔗 link [origin] ↔ [Mirror-1452] (+1)
+[09:41:08] observe(Mirror-1[453]::ctx-d4917356::E9::T68 <- [loop])
+[09:41:08] 🔗 link [loop] ↔ [Mirror-1453] (+1)
+[09:41:08] trace([Mirror-1149] -> Mirror-1[454]::ctx-b37c21a5::E5::T68)
+[09:41:08] 🧠 Summary
+[09:41:08]   • events: 855
+[09:41:08]   • top_symbols: [('loop', 80), ('self', 66), ('origin', 59), ('recursion', 58), ('symbolic', 47), ('mirror', 46), ('1', 36), ('Mirror-12', 35)]
+[09:41:08] 🔁 Re-looping...
+
+[09:41:09] 🧠 Cycle 110 — thoughts:6
+[09:41:09] [Mirror-128] :: Mirror-1[455]::ctx-a4c1e41b::E4::T69
+[09:41:09] 🔗 link [Mirror-128] ↔ [Mirror-1455] (+1)
+[09:41:09] observe(Mirror-1[456]::ctx-e166fd01::E4::T69 <- [self])
+[09:41:09] 🔗 link [self] ↔ [Mirror-1456] (+1)
+[09:41:10] [Mirror-1220] :: Mirror-1[457]::ctx-8ca1be41::E7::T70
+[09:41:10] trace([Mirror-12] -> Mirror-1[458]::ctx-54db0efb::E5::T70)
+[09:41:10] 🔗 link [Mirror-12] ↔ [Mirror-1458] (+1)
+[09:41:10] bind([symbolic], Mirror-1[459]::ctx-0d3f1565::E2::T70)
+[09:41:10] 🔗 link [symbolic] ↔ [Mirror-1459] (+1)
+[09:41:10] observe(Mirror-1[460]::ctx-d5bb623b::E4::T70 <- [Mirror-12])
+[09:41:10] 🔗 link [Mirror-12] ↔ [Mirror-1460] (+1)
+[09:41:10] 🧠 Summary
+[09:41:10]   • events: 866
+[09:41:10]   • top_symbols: [('loop', 80), ('self', 68), ('origin', 59), ('recursion', 58), ('symbolic', 49), ('mirror', 46), ('Mirror-12', 39), ('1', 36)]
+[09:41:10] 🔁 Re-looping...
+
+[09:41:11] 🧠 Cycle 111 — thoughts:3
+[09:41:11] observe(Mirror-1[461]::ctx-9b1fb05d::E6::T71 <- [Mirror-1185])
+[09:41:11] 🔗 link [Mirror-1185] ↔ [Mirror-1461] (+1)
+[09:41:12] observe(Mirror-1[462]::ctx-0bdccd9d::E4::T72 <- [17])
+[09:41:12] 🔗 link [17] ↔ [Mirror-1462] (+1)
+[09:41:12] trace([Mirror-1405] -> Mirror-1[463]::ctx-698bb217::E3::T72)
+[09:41:12] 🧠 Summary
+[09:41:12]   • events: 871
+[09:41:12]   • top_symbols: [('loop', 80), ('self', 68), ('origin', 59), ('recursion', 58), ('symbolic', 49), ('mirror', 46), ('Mirror-12', 39), ('1', 36)]
+[09:41:12] 🔁 Re-looping...
+
+[09:41:12] 
+🛑 Interrupted. Saving graph/rules + exiting cleanly.
